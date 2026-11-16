@@ -1,45 +1,52 @@
 [
   {
-    "objectID": "webpage_README.html",
-    "href": "webpage_README.html",
-    "title": "MMA structure",
+    "objectID": "math_topics/exponentials/index.html",
+    "href": "math_topics/exponentials/index.html",
+    "title": "Exponentials",
     "section": "",
-    "text": "The MMA webpage is created in quarto markdown. The quarto markdown documentation is extensive. You should view the Websites section. Quarto markdown (qmd) mostly matches Markdown syntax, which is very intuitive and easy to write. Quarto’s markdown basics will help you get started with markdown if you are new to it. Most of the LaTeX that you are used to works here. I edit my qmd files in VS Code.\nThis webpage is split into two main trees, both of which link to the other side.\n\nApplication topic: These form a tree: Chemistry &gt; Reaction equations &gt; Kinetics.\nMath topic: an area of math, e.g. Logarithms or Differential equations.\n\nThe webpage is created through a series of .qmd files in a file directory. Several terms will be used in this document. They are defined below.\n\n\n\nHub: a page that introduces a topic and lists relevant pages. A hub has a short background and an automatic list (see listing) of connected pages (e.g., sub applications or associated mathematics). A hub has no or worksheets of its own. Those are in conections. Each application topic and each math topic has a hub, e.g. the Chemical Kinetics hub or the Logarithms hub. Hubs should not need much editing, since they are automatically built with listings (see below).\nConnection: a page about one application topic used with one math topic, e.g. Chemical Kinetics & Differential equations. This is the core of MMA. Connection pages are the main page users will access, usually through a “filter chip”. A connection page has, in order:\n\nBackground: an explanation of the application and how the math applies, written for instructors, but easy for instructors to copy if they want to share background information with students. The background should be written in three ways so instructors can easily share the level of detail they want to share with students.\n\nMinimum: a paragraph you could put on a homework assignment or worksheet.\nMedium: a longer explanation, e.g., something that could be discussed verbally in class in 5 minutes.\nExtended: a deep dive, with references. This is mostly used for instructors or those wishing to learn more about the topic.\n\nPrerequisite: material students should know before starting a connection or resource. Link it to the page that covers it, if there is one.\nLearning outcome: what students can do after a connection or resource, written with a measurable verb (“Convert…”, “Interpret…”, not “Understand…”). See REVISED Bloom’s Taxonomy Action Verbs\n\nTODO: should these be here, or in the resources, or both? It would be nice to have these on the page as clickable resources. Maybe we make a listing for these?\n\n\nResource: something instructors can use in class that belongs to one connection: a lesson, worksheet, problem set, etc. Each resource is its own page, kept in the resources/ folder of its connection.\n\nLearning outcome: what students can do after a connection or resource, written with a measurable verb (“Convert…”, “Interpret…”, not “Understand…”). See REVISED Bloom’s Taxonomy Action Verbs\n\nTag: a label in a page’s categories: list (see Page YAML headers), e.g. categories: [Kinetics, Logarithms]. Tags are how a page shows up on math topic hubs (using listings, see below). A tag must match the hub’s title exactly: “Logarithm” will not match “Logarithms”.\nListing: an automatic list of pages, built by Quarto every time the site is rendered. Hubs use listings, so they are automatically updated when a new connection is added.\n\n\n\n\nEvery viewable page (Hub, Connection, or Resource) is the index.qmd file inside its own folder, so the folders below match the pages of the website. For example:\n\nHomepage: index.qmd\n\nApplication topics: applications/\n\nChemistry (hub): chemistry/\n\nReaction equations (hub): reaction-equations/\n\nChemical Kinetics (hub): kinetics/\n\nChemical Kinetics & Differential equations (connection): odes/\n\nResources (lessons, worksheets, …): resources/*.qmd\n\nChemical Kinetics & Logarithms (connection): logarithms/\n\nResources (lessons, worksheets, …): resources/*.qmd\n\n\nStoichiometry (hub): stoichiometry/\n\nTitration (hub): titration/\n\n\nMath topics: math/\n\nLogarithms (hub): logarithms/\nDifferential equations (hub): differential-equations/\n\n\n\n\n\n\nThese files apply to the whole site, defining site structure and style. Most contributors won’t need to edit them, but you may want to experiment with changes on your own GitHub branch.\nFiles and folders whose names start with _ are not turned into pages and may not be visible to you when you pull from GitHub.\n\n_quarto.yml: the site’s settings: the site title, the navigation bar at the top of every page, the theme, and defaults for every page (for example, a table of contents on every page toc: true). A setting in a page’s own YAML header overrides the default here for that page. Changes here affect every page; edits must be approved by the site administrator (Jeremy).\nstyles.css: custom styling (colors, spacing, fonts) added on top of the theme. This is not in use right now, but may be something you want to edit if you want specific styles.\n_templates/: starter files for new hub, connection and resource pages.\n_site/: the built website, created by quarto render. Don’t edit anything here; it is replaced every time the site is built.\n.quarto/: Quarto’s internal working files, created automatically when the site is rendered. Don’t edit it. It is safe to delete because Quarto rebuilds it with each rendering.\n.gitignore: a file telling GitHub which files/folders to ignore when pushing to the repository.\n\n\n\n\nEach page is a .qmd file consisting of a YAML header (delineated with ---), containing the page settings, followed by the page’s text. The page text is written in markdown and should be relatively straightforward. The header anatomy is described below.\n\n\nEach page begins with a YAML header, enclosed with ---. Here is an example, from the Chemical Kinetics page.\n---\ntitle: \"Chemical Kinetics\"\ndescription: \"Modeling reactant concentrations as functions time.\"\ncategories: [Chemistry, Reaction equations]\nlisting:\n  id: connections\n  contents: \"./*/index.qmd\"\n  type: table\n  fields: [title, description, categories]\n  sort: title\n---\nThe following table describes what different header settings do, how to use them, and when you might want to use them.\n\ntitle: The page’s heading and the name in the browser tab. When this page appears in a list on another page (e.g., through a listing), this is the link text.\ndescription: A summary shown under the title. When this page appears in a list on another page, this is the text beside the link. Ideally this should be one sentence and certainly no more than two sentences.\ncategories: A list of the page’s tags. They appear as small labels under the page title. Categories are used for searching and organization. See quarto’s description.\nlisting: This creates a “listing” (see Section 1.1), an automatic list of other pages on the site matching specifications defined below. This needs to be edited to define the contents and look of the listing. Multiple listings can exist on one page, creating two searchable tables.\n\nid: connections: The list’s name (connections). It tells Quarto where to put the list on the page (see #page-body). This is arbitrary, you decide it.\ncontents: Which pages to list. ./*/index.qmd means “all files named index.qmd in the next-level of subdirectories.” Each connection page will displayed in its own row.\ntype: table: Show the list as a table. Other options: default (a list with summaries) and grid (cards).\nfields: [title, description, categories]: The columns of the listing table. These come from the listed page’s own header. These are searchable in the listing.\n\nsort: title: Order the rows alphabetically by title. See Quarto documentation for other options.\n\ntoc: false: toc means “table of contents”. By default, toc is true which creates a table of contents in the rigth margin. For short pages, you may have toc: false.\n\n\n\n\nThe page body depends on whether the page is a Hub, Connection, or Resource.\n\n\n\nThe listing, defined in the header, should be placed at the bottom of the page. To show it on the webpage, put an empty block with the list’s id in the page text, where the list should appear:\n## Math connections\n\n::: {#connections}\n:::\n\n\n\n\n\n\nNote\n\n\n\n::: creates a “fence” in qmd. Fences are used to create HTML &lt;div&gt; or &lt;span&gt; elements. See the pandoc user guide for more. You will often see / use them to create special elements.\n\n\nWithout this block, Quarto automatically puts the list at the end of the page without a header.\n\n\n\n\nYou can use existing pages as templates, or find templates in ./_templates/."
+    "text": "Not written yet."
   },
   {
-    "objectID": "webpage_README.html#sec-terms",
-    "href": "webpage_README.html#sec-terms",
-    "title": "MMA structure",
+    "objectID": "math_topics/exponentials/index.html#background",
+    "href": "math_topics/exponentials/index.html#background",
+    "title": "Exponentials",
     "section": "",
-    "text": "Hub: a page that introduces a topic and lists relevant pages. A hub has a short background and an automatic list (see listing) of connected pages (e.g., sub applications or associated mathematics). A hub has no or worksheets of its own. Those are in conections. Each application topic and each math topic has a hub, e.g. the Chemical Kinetics hub or the Logarithms hub. Hubs should not need much editing, since they are automatically built with listings (see below).\nConnection: a page about one application topic used with one math topic, e.g. Chemical Kinetics & Differential equations. This is the core of MMA. Connection pages are the main page users will access, usually through a “filter chip”. A connection page has, in order:\n\nBackground: an explanation of the application and how the math applies, written for instructors, but easy for instructors to copy if they want to share background information with students. The background should be written in three ways so instructors can easily share the level of detail they want to share with students.\n\nMinimum: a paragraph you could put on a homework assignment or worksheet.\nMedium: a longer explanation, e.g., something that could be discussed verbally in class in 5 minutes.\nExtended: a deep dive, with references. This is mostly used for instructors or those wishing to learn more about the topic.\n\nPrerequisite: material students should know before starting a connection or resource. Link it to the page that covers it, if there is one.\nLearning outcome: what students can do after a connection or resource, written with a measurable verb (“Convert…”, “Interpret…”, not “Understand…”). See REVISED Bloom’s Taxonomy Action Verbs\n\nTODO: should these be here, or in the resources, or both? It would be nice to have these on the page as clickable resources. Maybe we make a listing for these?\n\n\nResource: something instructors can use in class that belongs to one connection: a lesson, worksheet, problem set, etc. Each resource is its own page, kept in the resources/ folder of its connection.\n\nLearning outcome: what students can do after a connection or resource, written with a measurable verb (“Convert…”, “Interpret…”, not “Understand…”). See REVISED Bloom’s Taxonomy Action Verbs\n\nTag: a label in a page’s categories: list (see Page YAML headers), e.g. categories: [Kinetics, Logarithms]. Tags are how a page shows up on math topic hubs (using listings, see below). A tag must match the hub’s title exactly: “Logarithm” will not match “Logarithms”.\nListing: an automatic list of pages, built by Quarto every time the site is rendered. Hubs use listings, so they are automatically updated when a new connection is added."
+    "text": "Not written yet."
   },
   {
-    "objectID": "webpage_README.html#webpage-structure",
-    "href": "webpage_README.html#webpage-structure",
-    "title": "MMA structure",
-    "section": "",
-    "text": "Every viewable page (Hub, Connection, or Resource) is the index.qmd file inside its own folder, so the folders below match the pages of the website. For example:\n\nHomepage: index.qmd\n\nApplication topics: applications/\n\nChemistry (hub): chemistry/\n\nReaction equations (hub): reaction-equations/\n\nChemical Kinetics (hub): kinetics/\n\nChemical Kinetics & Differential equations (connection): odes/\n\nResources (lessons, worksheets, …): resources/*.qmd\n\nChemical Kinetics & Logarithms (connection): logarithms/\n\nResources (lessons, worksheets, …): resources/*.qmd\n\n\nStoichiometry (hub): stoichiometry/\n\nTitration (hub): titration/\n\n\nMath topics: math/\n\nLogarithms (hub): logarithms/\nDifferential equations (hub): differential-equations/"
+    "objectID": "math_topics/exponentials/index.html#connections",
+    "href": "math_topics/exponentials/index.html#connections",
+    "title": "Exponentials",
+    "section": "Connections",
+    "text": "Connections\nEvery connection on the site tagged “Exponentials”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nKinetics and exponentials\n\n\nReactant concentrations are often exponentials.\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "webpage_README.html#site-wide-files",
-    "href": "webpage_README.html#site-wide-files",
-    "title": "MMA structure",
+    "objectID": "math_topics/index.html",
+    "href": "math_topics/index.html",
+    "title": "MMA Math Topics",
     "section": "",
-    "text": "These files apply to the whole site, defining site structure and style. Most contributors won’t need to edit them, but you may want to experiment with changes on your own GitHub branch.\nFiles and folders whose names start with _ are not turned into pages and may not be visible to you when you pull from GitHub.\n\n_quarto.yml: the site’s settings: the site title, the navigation bar at the top of every page, the theme, and defaults for every page (for example, a table of contents on every page toc: true). A setting in a page’s own YAML header overrides the default here for that page. Changes here affect every page; edits must be approved by the site administrator (Jeremy).\nstyles.css: custom styling (colors, spacing, fonts) added on top of the theme. This is not in use right now, but may be something you want to edit if you want specific styles.\n_templates/: starter files for new hub, connection and resource pages.\n_site/: the built website, created by quarto render. Don’t edit anything here; it is replaced every time the site is built.\n.quarto/: Quarto’s internal working files, created automatically when the site is rendered. Don’t edit it. It is safe to delete because Quarto rebuilds it with each rendering.\n.gitignore: a file telling GitHub which files/folders to ignore when pushing to the repository."
+    "text": "Each math topic lists every connection that uses it, from any application area.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nAlgebra\n\n\nConnections that use algebra.\n\n\n\n\n\n\nDifferential equations\n\n\nConnections that use differential equations.\n\n\n\n\n\n\nExponentials\n\n\nConnections that use exponentials.\n\n\n\n\n\n\nLinear algebra\n\n\nConnections that use linear algebra.\n\n\n\n\n\n\nLogarithms\n\n\nConnections that use logarithms.\n\n\n\n\n\n\nOptimization\n\n\nConnections that use optimization.\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "webpage_README.html#how-pages-work",
-    "href": "webpage_README.html#how-pages-work",
-    "title": "MMA structure",
+    "objectID": "math_topics/optimization/index.html",
+    "href": "math_topics/optimization/index.html",
+    "title": "Optimization",
     "section": "",
-    "text": "Each page is a .qmd file consisting of a YAML header (delineated with ---), containing the page settings, followed by the page’s text. The page text is written in markdown and should be relatively straightforward. The header anatomy is described below.\n\n\nEach page begins with a YAML header, enclosed with ---. Here is an example, from the Chemical Kinetics page.\n---\ntitle: \"Chemical Kinetics\"\ndescription: \"Modeling reactant concentrations as functions time.\"\ncategories: [Chemistry, Reaction equations]\nlisting:\n  id: connections\n  contents: \"./*/index.qmd\"\n  type: table\n  fields: [title, description, categories]\n  sort: title\n---\nThe following table describes what different header settings do, how to use them, and when you might want to use them.\n\ntitle: The page’s heading and the name in the browser tab. When this page appears in a list on another page (e.g., through a listing), this is the link text.\ndescription: A summary shown under the title. When this page appears in a list on another page, this is the text beside the link. Ideally this should be one sentence and certainly no more than two sentences.\ncategories: A list of the page’s tags. They appear as small labels under the page title. Categories are used for searching and organization. See quarto’s description.\nlisting: This creates a “listing” (see Section 1.1), an automatic list of other pages on the site matching specifications defined below. This needs to be edited to define the contents and look of the listing. Multiple listings can exist on one page, creating two searchable tables.\n\nid: connections: The list’s name (connections). It tells Quarto where to put the list on the page (see #page-body). This is arbitrary, you decide it.\ncontents: Which pages to list. ./*/index.qmd means “all files named index.qmd in the next-level of subdirectories.” Each connection page will displayed in its own row.\ntype: table: Show the list as a table. Other options: default (a list with summaries) and grid (cards).\nfields: [title, description, categories]: The columns of the listing table. These come from the listed page’s own header. These are searchable in the listing.\n\nsort: title: Order the rows alphabetically by title. See Quarto documentation for other options.\n\ntoc: false: toc means “table of contents”. By default, toc is true which creates a table of contents in the rigth margin. For short pages, you may have toc: false.\n\n\n\n\nThe page body depends on whether the page is a Hub, Connection, or Resource.\n\n\n\nThe listing, defined in the header, should be placed at the bottom of the page. To show it on the webpage, put an empty block with the list’s id in the page text, where the list should appear:\n## Math connections\n\n::: {#connections}\n:::\n\n\n\n\n\n\nNote\n\n\n\n::: creates a “fence” in qmd. Fences are used to create HTML &lt;div&gt; or &lt;span&gt; elements. See the pandoc user guide for more. You will often see / use them to create special elements.\n\n\nWithout this block, Quarto automatically puts the list at the end of the page without a header."
+    "text": "Not written yet."
   },
   {
-    "objectID": "webpage_README.html#templates",
-    "href": "webpage_README.html#templates",
-    "title": "MMA structure",
+    "objectID": "math_topics/optimization/index.html#background",
+    "href": "math_topics/optimization/index.html#background",
+    "title": "Optimization",
     "section": "",
-    "text": "You can use existing pages as templates, or find templates in ./_templates/."
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/optimization/index.html#connections",
+    "href": "math_topics/optimization/index.html#connections",
+    "title": "Optimization",
+    "section": "Connections",
+    "text": "Connections\nEvery connection on the site tagged “Optimization”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and optimization\n\n\nFind the maximum or minimum amount a substance during a reaction.\n\n\nKinetics, Optimization\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "math_topics/logarithms/index.html",
@@ -63,34 +70,6 @@
     "text": "Connections\nEvery connection on the site tagged “Logarithms”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "math_topics/index.html",
-    "href": "math_topics/index.html",
-    "title": "MMA Math Topics",
-    "section": "",
-    "text": "Each math topic lists every connection that uses it, from any application area.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nAlgebra\n\n\nConnections that use algebra.\n\n\n\n\n\n\nDifferential equations\n\n\nConnections that use differential equations.\n\n\n\n\n\n\nExponentials\n\n\nConnections that use exponentials.\n\n\n\n\n\n\nLinear algebra\n\n\nConnections that use linear algebra.\n\n\n\n\n\n\nLogarithms\n\n\nConnections that use logarithms.\n\n\n\n\n\n\nOptimization\n\n\nConnections that use optimization.\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "math_topics/differential-equations/index.html",
-    "href": "math_topics/differential-equations/index.html",
-    "title": "Differential equations",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/differential-equations/index.html#background",
-    "href": "math_topics/differential-equations/index.html#background",
-    "title": "Differential equations",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/differential-equations/index.html#connections",
-    "href": "math_topics/differential-equations/index.html#connections",
-    "title": "Differential equations",
-    "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Differential equations”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and differential equations\n\n\nTurn a reaction equation into an initial value problem or system of initial value problems.\n\n\nKinetics, Differential equations\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Motivating Mathematics through Applications (MMA)",
@@ -98,18 +77,18 @@
     "text": "This website houses a growing assortment of lessons, worksheets, homework problems, and more for realistic connections between math and the myriad of ways math can be used in Science, Technology, Engineering, Sociology, Art, and more. Each application area has background reading targeted for math instructors to be able to quickly learn some background in the given application area.\n\nBrowse by application area.\nBrowse by math topic.\n\nYou can also search using the tool below:\nTODO\n\nUsing this webpage\nMMA creators! Start here."
   },
   {
-    "objectID": "applications/physics/index.html",
-    "href": "applications/physics/index.html",
-    "title": "Physics",
+    "objectID": "applications/biology/index.html",
+    "href": "applications/biology/index.html",
+    "title": "Biology",
     "section": "",
     "text": "Introduction not written yet."
   },
   {
-    "objectID": "applications/physics/index.html#topics",
-    "href": "applications/physics/index.html#topics",
-    "title": "Physics",
+    "objectID": "applications/biology/index.html#topics",
+    "href": "applications/biology/index.html#topics",
+    "title": "Biology",
     "section": "Topics",
-    "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nEcology\n\n\nTODO\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "applications/engineering/index.html",
@@ -126,130 +105,60 @@
     "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
-    "title": "Stoichiometry and linear algebra",
+    "objectID": "applications/sociology/index.html",
+    "href": "applications/sociology/index.html",
+    "title": "Sociology",
     "section": "",
-    "text": "Related: Stoichiometry · Reaction equations · Linear algebra"
+    "text": "Introduction not written yet."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nNot written yet.\n\n\nNot written yet."
+    "objectID": "applications/sociology/index.html#topics",
+    "href": "applications/sociology/index.html#topics",
+    "title": "Sociology",
+    "section": "Topics",
+    "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nStoichiometry and algebra\nMatrices and row reduction"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
-    "title": "Stoichiometry and algebra",
+    "objectID": "applications/chemistry/titration/index.html",
+    "href": "applications/chemistry/titration/index.html",
+    "title": "Titration",
     "section": "",
-    "text": "Related: Stoichiometry · Reaction equations · Algebra"
+    "text": "Part of: Chemistry"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#background",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#background",
-    "title": "Stoichiometry and algebra",
+    "objectID": "applications/chemistry/titration/index.html#background",
+    "href": "applications/chemistry/titration/index.html#background",
+    "title": "Titration",
     "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nBalancing a reaction, \\(n\\) equations in \\(m\\) unknowns.\n\n\nNot written yet."
+    "text": "Background\nNot written yet."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#prerequisites",
-    "title": "Stoichiometry and algebra",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nReaction equations\nSystems of linear equations"
+    "objectID": "applications/chemistry/titration/index.html#math-connections",
+    "href": "applications/chemistry/titration/index.html#math-connections",
+    "title": "Titration",
+    "section": "Math connections",
+    "text": "Math connections\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\nCategories\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#learning-outcomes",
-    "title": "Stoichiometry and algebra",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#resources",
-    "title": "Stoichiometry and algebra",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
-    "title": "Chemical kinetics and differential equations",
-    "section": "",
-    "text": "Related: Kinetics · Reaction equations · Differential equations"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nReactions are represented by initial value problems. For example, the initial value problem for Example 3: Hydrogen peroxide catalase is \\[\n\\begin{aligned}\n    E'(t) &= -k_1 E\\ S + k_2 X\\ S - k_3 E, &E(0)= E_0\\\\\n    S'(t) &= -K_1 E\\ S - k_2 X\\ S, &S(0) = S_0\\\\\n    X'(t) &= K_1 E\\ S - k_2 X\\ S, &X(0) = X_0\\\\\n    P'(t) &= k_2 X\\ S, &P(0) = P_0\\\\\n    I'(t) &= k_3 E, &I(0) = 0\n\\end{aligned}\n\\] where\n\n\\(E\\) = the concentration of the catalase\n\\(S\\) = the concentration of hydrogen peroxide\n\\(X\\) = the concentration of an enzyme-substrate complex formed during the reaction of hydrogen peroxide and the catalase\n\\(P\\) = the concentration of the product formation (?) of ???\n\\(I\\) = the concentration of an inactive form of the catalase\n\nand \\(k_1\\), \\(k_2\\), and \\(k_3\\) are the rates of the reactions.\nThese equations are created in a similar manner to compartment models. We begin with the simplest example, \\(A \\to B\\), from the Reaction equations page.\n\n\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nReaction equations\nDerivatives"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\n\nConvert an application problem to a differential equation."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/index.html",
-    "title": "Chemical Kinetics",
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html",
+    "title": "Stoichiometry",
     "section": "",
     "text": "Part of: Reaction equations · Chemistry"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/index.html#background",
-    "title": "Chemical Kinetics",
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
+    "title": "Stoichiometry",
     "section": "Background",
-    "text": "Background\nChemical kinetics is the study of chemical reactions.\nMore background not written yet.\nExamples can be found on the Reaction equations page."
+    "text": "Background\nBackground not written yet.\nExamples can be found on the Reaction equations page."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html#math-connections",
-    "href": "applications/chemistry/reaction-equations/kinetics/index.html#math-connections",
-    "title": "Chemical Kinetics",
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
+    "title": "Stoichiometry",
     "section": "Math connections",
-    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and differential equations\n\n\nTurn a reaction equation into an initial value problem or system of initial value problems.\n\n\nKinetics, Differential equations\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nChemical kinetics and optimization\n\n\nFind the maximum or minimum amount a substance during a reaction.\n\n\nKinetics, Optimization\n\n\n\n\n\n\nKinetics and exponentials\n\n\nReactant concentrations are often exponentials.\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nNo matching items"
+    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "applications/chemistry/reaction-equations/index.html",
@@ -294,123 +203,25 @@
     "text": "Footnotes\n\n\nSee Wikipedia contributors (2026).↩︎"
   },
   {
-    "objectID": "applications/biology/index.html",
-    "href": "applications/biology/index.html",
-    "title": "Biology",
+    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/index.html",
+    "title": "Chemical Kinetics",
     "section": "",
-    "text": "Introduction not written yet."
+    "text": "Part of: Reaction equations · Chemistry"
   },
   {
-    "objectID": "applications/biology/index.html#topics",
-    "href": "applications/biology/index.html#topics",
-    "title": "Biology",
-    "section": "Topics",
-    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nEcology\n\n\nTODO\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This site is designed and created by Jeremy Upsal with contributions from\n\nGriffin Bandstetter\nPayton Howell\nAva Michler\nEmme McMullen\nFisher Ng\n\nThe site is licensed under CC BY 4.0.\nIndividual page contributions can be made using ___."
-  },
-  {
-    "objectID": "applications/biology/ecology/index.html",
-    "href": "applications/biology/ecology/index.html",
-    "title": "Ecology",
-    "section": "",
-    "text": "Introduction not written yet."
-  },
-  {
-    "objectID": "applications/biology/ecology/index.html#topics",
-    "href": "applications/biology/ecology/index.html#topics",
-    "title": "Ecology",
-    "section": "Topics",
-    "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/index.html",
-    "href": "applications/chemistry/index.html",
-    "title": "Chemistry",
-    "section": "",
-    "text": "Introduction not written yet."
-  },
-  {
-    "objectID": "applications/chemistry/index.html#topics",
-    "href": "applications/chemistry/index.html#topics",
-    "title": "Chemistry",
-    "section": "Topics",
-    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nReaction equations\n\n\nDefines a reaction equation with real examples. This is the starting point for kinetics and stoichiometry.\n\n\n\n\n\n\nTitration\n\n\nNot written yet.\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
-    "title": "Kinetics and exponentials",
-    "section": "",
-    "text": "Related: Kinetics · Reaction equations · Exponentials"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#background",
-    "title": "Kinetics and exponentials",
+    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/index.html#background",
+    "title": "Chemical Kinetics",
     "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nThe solutions of many of the differential equations are exponentials.\n\n\nNot written yet."
+    "text": "Background\nChemical kinetics is the study of chemical reactions.\nMore background not written yet.\nExamples can be found on the Reaction equations page."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#prerequisites",
-    "title": "Kinetics and exponentials",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nKinetics and differential equations\nExponential functions"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#learning-outcomes",
-    "title": "Kinetics and exponentials",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#resources",
-    "title": "Kinetics and exponentials",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
-    "title": "Chemical kinetics and logarithms",
-    "section": "",
-    "text": "Related: Kinetics · Reaction equations · Logarithms"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#background",
-    "title": "Chemical kinetics and logarithms",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\n\nFinding the reaction rate\nThe reaction rate is found using logarithms.\n\n\nHalf life\nLogarithms are also used for half life.\n\n\n\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#prerequisites",
-    "title": "Chemical kinetics and logarithms",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nKinetics and exponentials\nLogarithms"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#learning-outcomes",
-    "title": "Chemical kinetics and logarithms",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#resources",
-    "title": "Chemical kinetics and logarithms",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html#math-connections",
+    "href": "applications/chemistry/reaction-equations/kinetics/index.html#math-connections",
+    "title": "Chemical Kinetics",
+    "section": "Math connections",
+    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and differential equations\n\n\nTurn a reaction equation into an initial value problem or system of initial value problems.\n\n\nKinetics, Differential equations\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nChemical kinetics and optimization\n\n\nFind the maximum or minimum amount a substance during a reaction.\n\n\nKinetics, Optimization\n\n\n\n\n\n\nKinetics and exponentials\n\n\nReactant concentrations are often exponentials.\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
@@ -448,46 +259,249 @@
     "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html",
-    "title": "Stoichiometry",
+    "objectID": "webpage_README.html",
+    "href": "webpage_README.html",
+    "title": "MMA structure",
     "section": "",
-    "text": "Part of: Reaction equations · Chemistry"
+    "text": "The MMA webpage is created in quarto markdown. The quarto markdown documentation is extensive. You should view the Websites section. Quarto markdown (qmd) mostly matches Markdown syntax, which is very intuitive and easy to write. Quarto’s markdown basics will help you get started with markdown if you are new to it. Most of the LaTeX that you are used to works here. I edit my qmd files in VS Code.\nThis webpage is split into two main trees, both of which link to the other side.\n\nApplication topic: These form a tree: Chemistry &gt; Reaction equations &gt; Kinetics.\nMath topic: an area of math, e.g. Logarithms or Differential equations.\n\nThe webpage is created through a series of .qmd files in a file directory. Several terms will be used in this document. They are defined below.\n\n\n\nHub: a page that introduces a topic and lists relevant pages. A hub has a short background and an automatic list (see listing) of connected pages (e.g., sub applications or associated mathematics). A hub has no or worksheets of its own. Those are in conections. Each application topic and each math topic has a hub, e.g. the Chemical Kinetics hub or the Logarithms hub. Hubs should not need much editing, since they are automatically built with listings (see below).\nConnection: a page about one application topic used with one math topic, e.g. Chemical Kinetics & Differential equations. This is the core of MMA. Connection pages are the main page users will access, usually through a “filter chip”. A connection page has, in order:\n\nBackground: an explanation of the application and how the math applies, written for instructors, but easy for instructors to copy if they want to share background information with students. The background should be written in three ways so instructors can easily share the level of detail they want to share with students.\n\nMinimum: a paragraph you could put on a homework assignment or worksheet.\nMedium: a longer explanation, e.g., something that could be discussed verbally in class in 5 minutes.\nExtended: a deep dive, with references. This is mostly used for instructors or those wishing to learn more about the topic.\n\nPrerequisite: material students should know before starting a connection or resource. Link it to the page that covers it, if there is one.\nLearning outcome: what students can do after a connection or resource, written with a measurable verb (“Convert…”, “Interpret…”, not “Understand…”). See REVISED Bloom’s Taxonomy Action Verbs\n\nTODO: should these be here, or in the resources, or both? It would be nice to have these on the page as clickable resources. Maybe we make a listing for these?\n\n\nResource: something instructors can use in class that belongs to one connection: a lesson, worksheet, problem set, etc. Each resource is its own page, kept in the resources/ folder of its connection.\n\nLearning outcome: what students can do after a connection or resource, written with a measurable verb (“Convert…”, “Interpret…”, not “Understand…”). See REVISED Bloom’s Taxonomy Action Verbs\n\nTag: a label in a page’s categories: list (see Page YAML headers), e.g. categories: [Kinetics, Logarithms]. Tags are how a page shows up on math topic hubs (using listings, see below). A tag must match the hub’s title exactly: “Logarithm” will not match “Logarithms”.\nListing: an automatic list of pages, built by Quarto every time the site is rendered. Hubs use listings, so they are automatically updated when a new connection is added.\n\n\n\n\nEvery viewable page (Hub, Connection, or Resource) is the index.qmd file inside its own folder, so the folders below match the pages of the website. For example:\n\nHomepage: index.qmd\n\nApplication topics: applications/\n\nChemistry (hub): chemistry/\n\nReaction equations (hub): reaction-equations/\n\nChemical Kinetics (hub): kinetics/\n\nChemical Kinetics & Differential equations (connection): odes/\n\nResources (lessons, worksheets, …): resources/*.qmd\n\nChemical Kinetics & Logarithms (connection): logarithms/\n\nResources (lessons, worksheets, …): resources/*.qmd\n\n\nStoichiometry (hub): stoichiometry/\n\nTitration (hub): titration/\n\n\nMath topics: math/\n\nLogarithms (hub): logarithms/\nDifferential equations (hub): differential-equations/\n\n\n\n\n\n\nThese files apply to the whole site, defining site structure and style. Most contributors won’t need to edit them, but you may want to experiment with changes on your own GitHub branch.\nFiles and folders whose names start with _ are not turned into pages and may not be visible to you when you pull from GitHub.\n\n_quarto.yml: the site’s settings: the site title, the navigation bar at the top of every page, the theme, and defaults for every page (for example, a table of contents on every page toc: true). A setting in a page’s own YAML header overrides the default here for that page. Changes here affect every page; edits must be approved by the site administrator (Jeremy).\nstyles.css: custom styling (colors, spacing, fonts) added on top of the theme. This is not in use right now, but may be something you want to edit if you want specific styles.\n_templates/: starter files for new hub, connection and resource pages.\n_site/: the built website, created by quarto render. Don’t edit anything here; it is replaced every time the site is built.\n.quarto/: Quarto’s internal working files, created automatically when the site is rendered. Don’t edit it. It is safe to delete because Quarto rebuilds it with each rendering.\n.gitignore: a file telling GitHub which files/folders to ignore when pushing to the repository.\n\n\n\n\nEach page is a .qmd file consisting of a YAML header (delineated with ---), containing the page settings, followed by the page’s text. The page text is written in markdown and should be relatively straightforward. The header anatomy is described below.\n\n\nEach page begins with a YAML header, enclosed with ---. Here is an example, from the Chemical Kinetics page.\n---\ntitle: \"Chemical Kinetics\"\ndescription: \"Modeling reactant concentrations as functions time.\"\ncategories: [Chemistry, Reaction equations]\nlisting:\n  id: connections\n  contents: \"./*/index.qmd\"\n  type: table\n  fields: [title, description, categories]\n  sort: title\n---\nThe following table describes what different header settings do, how to use them, and when you might want to use them.\n\ntitle: The page’s heading and the name in the browser tab. When this page appears in a list on another page (e.g., through a listing), this is the link text.\ndescription: A summary shown under the title. When this page appears in a list on another page, this is the text beside the link. Ideally this should be one sentence and certainly no more than two sentences.\ncategories: A list of the page’s tags. They appear as small labels under the page title. Categories are used for searching and organization. See quarto’s description.\nlisting: This creates a “listing” (see Section 1.1), an automatic list of other pages on the site matching specifications defined below. This needs to be edited to define the contents and look of the listing. Multiple listings can exist on one page, creating two searchable tables.\n\nid: connections: The list’s name (connections). It tells Quarto where to put the list on the page (see #page-body). This is arbitrary, you decide it.\ncontents: Which pages to list. ./*/index.qmd means “all files named index.qmd in the next-level of subdirectories.” Each connection page will displayed in its own row.\ntype: table: Show the list as a table. Other options: default (a list with summaries) and grid (cards).\nfields: [title, description, categories]: The columns of the listing table. These come from the listed page’s own header. These are searchable in the listing.\n\nsort: title: Order the rows alphabetically by title. See Quarto documentation for other options.\n\ntoc: false: toc means “table of contents”. By default, toc is true which creates a table of contents in the rigth margin. For short pages, you may have toc: false.\n\n\n\n\nThe page body depends on whether the page is a Hub, Connection, or Resource.\n\n\n\nThe listing, defined in the header, should be placed at the bottom of the page. To show it on the webpage, put an empty block with the list’s id in the page text, where the list should appear:\n## Math connections\n\n::: {#connections}\n:::\n\n\n\n\n\n\nNote\n\n\n\n::: creates a “fence” in qmd. Fences are used to create HTML &lt;div&gt; or &lt;span&gt; elements. See the pandoc user guide for more. You will often see / use them to create special elements.\n\n\nWithout this block, Quarto automatically puts the list at the end of the page without a header.\n\n\n\n\nYou can use existing pages as templates, or find templates in ./_templates/."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
-    "title": "Stoichiometry",
-    "section": "Background",
-    "text": "Background\nBackground not written yet.\nExamples can be found on the Reaction equations page."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
-    "title": "Stoichiometry",
-    "section": "Math connections",
-    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/titration/index.html",
-    "href": "applications/chemistry/titration/index.html",
-    "title": "Titration",
+    "objectID": "webpage_README.html#sec-terms",
+    "href": "webpage_README.html#sec-terms",
+    "title": "MMA structure",
     "section": "",
-    "text": "Part of: Chemistry"
+    "text": "Hub: a page that introduces a topic and lists relevant pages. A hub has a short background and an automatic list (see listing) of connected pages (e.g., sub applications or associated mathematics). A hub has no or worksheets of its own. Those are in conections. Each application topic and each math topic has a hub, e.g. the Chemical Kinetics hub or the Logarithms hub. Hubs should not need much editing, since they are automatically built with listings (see below).\nConnection: a page about one application topic used with one math topic, e.g. Chemical Kinetics & Differential equations. This is the core of MMA. Connection pages are the main page users will access, usually through a “filter chip”. A connection page has, in order:\n\nBackground: an explanation of the application and how the math applies, written for instructors, but easy for instructors to copy if they want to share background information with students. The background should be written in three ways so instructors can easily share the level of detail they want to share with students.\n\nMinimum: a paragraph you could put on a homework assignment or worksheet.\nMedium: a longer explanation, e.g., something that could be discussed verbally in class in 5 minutes.\nExtended: a deep dive, with references. This is mostly used for instructors or those wishing to learn more about the topic.\n\nPrerequisite: material students should know before starting a connection or resource. Link it to the page that covers it, if there is one.\nLearning outcome: what students can do after a connection or resource, written with a measurable verb (“Convert…”, “Interpret…”, not “Understand…”). See REVISED Bloom’s Taxonomy Action Verbs\n\nTODO: should these be here, or in the resources, or both? It would be nice to have these on the page as clickable resources. Maybe we make a listing for these?\n\n\nResource: something instructors can use in class that belongs to one connection: a lesson, worksheet, problem set, etc. Each resource is its own page, kept in the resources/ folder of its connection.\n\nLearning outcome: what students can do after a connection or resource, written with a measurable verb (“Convert…”, “Interpret…”, not “Understand…”). See REVISED Bloom’s Taxonomy Action Verbs\n\nTag: a label in a page’s categories: list (see Page YAML headers), e.g. categories: [Kinetics, Logarithms]. Tags are how a page shows up on math topic hubs (using listings, see below). A tag must match the hub’s title exactly: “Logarithm” will not match “Logarithms”.\nListing: an automatic list of pages, built by Quarto every time the site is rendered. Hubs use listings, so they are automatically updated when a new connection is added."
   },
   {
-    "objectID": "applications/chemistry/titration/index.html#background",
-    "href": "applications/chemistry/titration/index.html#background",
-    "title": "Titration",
+    "objectID": "webpage_README.html#webpage-structure",
+    "href": "webpage_README.html#webpage-structure",
+    "title": "MMA structure",
+    "section": "",
+    "text": "Every viewable page (Hub, Connection, or Resource) is the index.qmd file inside its own folder, so the folders below match the pages of the website. For example:\n\nHomepage: index.qmd\n\nApplication topics: applications/\n\nChemistry (hub): chemistry/\n\nReaction equations (hub): reaction-equations/\n\nChemical Kinetics (hub): kinetics/\n\nChemical Kinetics & Differential equations (connection): odes/\n\nResources (lessons, worksheets, …): resources/*.qmd\n\nChemical Kinetics & Logarithms (connection): logarithms/\n\nResources (lessons, worksheets, …): resources/*.qmd\n\n\nStoichiometry (hub): stoichiometry/\n\nTitration (hub): titration/\n\n\nMath topics: math/\n\nLogarithms (hub): logarithms/\nDifferential equations (hub): differential-equations/"
+  },
+  {
+    "objectID": "webpage_README.html#site-wide-files",
+    "href": "webpage_README.html#site-wide-files",
+    "title": "MMA structure",
+    "section": "",
+    "text": "These files apply to the whole site, defining site structure and style. Most contributors won’t need to edit them, but you may want to experiment with changes on your own GitHub branch.\nFiles and folders whose names start with _ are not turned into pages and may not be visible to you when you pull from GitHub.\n\n_quarto.yml: the site’s settings: the site title, the navigation bar at the top of every page, the theme, and defaults for every page (for example, a table of contents on every page toc: true). A setting in a page’s own YAML header overrides the default here for that page. Changes here affect every page; edits must be approved by the site administrator (Jeremy).\nstyles.css: custom styling (colors, spacing, fonts) added on top of the theme. This is not in use right now, but may be something you want to edit if you want specific styles.\n_templates/: starter files for new hub, connection and resource pages.\n_site/: the built website, created by quarto render. Don’t edit anything here; it is replaced every time the site is built.\n.quarto/: Quarto’s internal working files, created automatically when the site is rendered. Don’t edit it. It is safe to delete because Quarto rebuilds it with each rendering.\n.gitignore: a file telling GitHub which files/folders to ignore when pushing to the repository."
+  },
+  {
+    "objectID": "webpage_README.html#how-pages-work",
+    "href": "webpage_README.html#how-pages-work",
+    "title": "MMA structure",
+    "section": "",
+    "text": "Each page is a .qmd file consisting of a YAML header (delineated with ---), containing the page settings, followed by the page’s text. The page text is written in markdown and should be relatively straightforward. The header anatomy is described below.\n\n\nEach page begins with a YAML header, enclosed with ---. Here is an example, from the Chemical Kinetics page.\n---\ntitle: \"Chemical Kinetics\"\ndescription: \"Modeling reactant concentrations as functions time.\"\ncategories: [Chemistry, Reaction equations]\nlisting:\n  id: connections\n  contents: \"./*/index.qmd\"\n  type: table\n  fields: [title, description, categories]\n  sort: title\n---\nThe following table describes what different header settings do, how to use them, and when you might want to use them.\n\ntitle: The page’s heading and the name in the browser tab. When this page appears in a list on another page (e.g., through a listing), this is the link text.\ndescription: A summary shown under the title. When this page appears in a list on another page, this is the text beside the link. Ideally this should be one sentence and certainly no more than two sentences.\ncategories: A list of the page’s tags. They appear as small labels under the page title. Categories are used for searching and organization. See quarto’s description.\nlisting: This creates a “listing” (see Section 1.1), an automatic list of other pages on the site matching specifications defined below. This needs to be edited to define the contents and look of the listing. Multiple listings can exist on one page, creating two searchable tables.\n\nid: connections: The list’s name (connections). It tells Quarto where to put the list on the page (see #page-body). This is arbitrary, you decide it.\ncontents: Which pages to list. ./*/index.qmd means “all files named index.qmd in the next-level of subdirectories.” Each connection page will displayed in its own row.\ntype: table: Show the list as a table. Other options: default (a list with summaries) and grid (cards).\nfields: [title, description, categories]: The columns of the listing table. These come from the listed page’s own header. These are searchable in the listing.\n\nsort: title: Order the rows alphabetically by title. See Quarto documentation for other options.\n\ntoc: false: toc means “table of contents”. By default, toc is true which creates a table of contents in the rigth margin. For short pages, you may have toc: false.\n\n\n\n\nThe page body depends on whether the page is a Hub, Connection, or Resource.\n\n\n\nThe listing, defined in the header, should be placed at the bottom of the page. To show it on the webpage, put an empty block with the list’s id in the page text, where the list should appear:\n## Math connections\n\n::: {#connections}\n:::\n\n\n\n\n\n\nNote\n\n\n\n::: creates a “fence” in qmd. Fences are used to create HTML &lt;div&gt; or &lt;span&gt; elements. See the pandoc user guide for more. You will often see / use them to create special elements.\n\n\nWithout this block, Quarto automatically puts the list at the end of the page without a header."
+  },
+  {
+    "objectID": "webpage_README.html#templates",
+    "href": "webpage_README.html#templates",
+    "title": "MMA structure",
+    "section": "",
+    "text": "You can use existing pages as templates, or find templates in ./_templates/."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+    "title": "Chemical kinetics and logarithms",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Logarithms"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#background",
+    "title": "Chemical kinetics and logarithms",
     "section": "Background",
-    "text": "Background\nNot written yet."
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\n\nFinding the reaction rate\nThe reaction rate is found using logarithms.\n\n\nHalf life\nLogarithms are also used for half life.\n\n\n\nNot written yet."
   },
   {
-    "objectID": "applications/chemistry/titration/index.html#math-connections",
-    "href": "applications/chemistry/titration/index.html#math-connections",
-    "title": "Titration",
-    "section": "Math connections",
-    "text": "Math connections\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\nCategories\n\n\n\n\n\nNo matching items"
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#prerequisites",
+    "title": "Chemical kinetics and logarithms",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nKinetics and exponentials\nLogarithms"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#learning-outcomes",
+    "title": "Chemical kinetics and logarithms",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#resources",
+    "title": "Chemical kinetics and logarithms",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
+    "title": "Chemical kinetics and differential equations",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Differential equations"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
+    "title": "Chemical kinetics and differential equations",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nReactions are represented by initial value problems. For example, the initial value problem for Example 3: Hydrogen peroxide catalase is \\[\n\\begin{aligned}\n    E'(t) &= -k_1 E\\ S + k_2 X\\ S - k_3 E, &E(0)= E_0\\\\\n    S'(t) &= -K_1 E\\ S - k_2 X\\ S, &S(0) = S_0\\\\\n    X'(t) &= K_1 E\\ S - k_2 X\\ S, &X(0) = X_0\\\\\n    P'(t) &= k_2 X\\ S, &P(0) = P_0\\\\\n    I'(t) &= k_3 E, &I(0) = 0\n\\end{aligned}\n\\] where\n\n\\(E\\) = the concentration of the catalase\n\\(S\\) = the concentration of hydrogen peroxide\n\\(X\\) = the concentration of an enzyme-substrate complex formed during the reaction of hydrogen peroxide and the catalase\n\\(P\\) = the concentration of the product formation (?) of ???\n\\(I\\) = the concentration of an inactive form of the catalase\n\nand \\(k_1\\), \\(k_2\\), and \\(k_3\\) are the rates of the reactions.\nThese equations are created in a similar manner to compartment models. We begin with the simplest example, \\(A \\to B\\), from the Reaction equations page.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
+    "title": "Chemical kinetics and differential equations",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nReaction equations\nDerivatives"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
+    "title": "Chemical kinetics and differential equations",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nConvert an application problem to a differential equation."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
+    "title": "Chemical kinetics and differential equations",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
+    "title": "Kinetics and exponentials",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Exponentials"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#background",
+    "title": "Kinetics and exponentials",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nThe solutions of many of the differential equations are exponentials.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#prerequisites",
+    "title": "Kinetics and exponentials",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nKinetics and differential equations\nExponential functions"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#learning-outcomes",
+    "title": "Kinetics and exponentials",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#resources",
+    "title": "Kinetics and exponentials",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
+    "title": "Stoichiometry and algebra",
+    "section": "",
+    "text": "Related: Stoichiometry · Reaction equations · Algebra"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#background",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#background",
+    "title": "Stoichiometry and algebra",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nBalancing a reaction, \\(n\\) equations in \\(m\\) unknowns.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#prerequisites",
+    "title": "Stoichiometry and algebra",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nReaction equations\nSystems of linear equations"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#learning-outcomes",
+    "title": "Stoichiometry and algebra",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#resources",
+    "title": "Stoichiometry and algebra",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
+    "title": "Stoichiometry and linear algebra",
+    "section": "",
+    "text": "Related: Stoichiometry · Reaction equations · Linear algebra"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nNot written yet.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nStoichiometry and algebra\nMatrices and row reduction"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/index.html",
+    "href": "applications/chemistry/index.html",
+    "title": "Chemistry",
+    "section": "",
+    "text": "Introduction not written yet."
+  },
+  {
+    "objectID": "applications/chemistry/index.html#topics",
+    "href": "applications/chemistry/index.html#topics",
+    "title": "Chemistry",
+    "section": "Topics",
+    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nReaction equations\n\n\nDefines a reaction equation with real examples. This is the starting point for kinetics and stoichiometry.\n\n\n\n\n\n\nTitration\n\n\nNot written yet.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/physics/index.html",
+    "href": "applications/physics/index.html",
+    "title": "Physics",
+    "section": "",
+    "text": "Introduction not written yet."
+  },
+  {
+    "objectID": "applications/physics/index.html#topics",
+    "href": "applications/physics/index.html#topics",
+    "title": "Physics",
+    "section": "Topics",
+    "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "applications/index.html",
@@ -504,18 +518,25 @@
     "text": "Application areas\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBiology\n\n\nTODO\n\n\n\n\n\n\nChemistry\n\n\nReaction equations, kinetics, stoichiometry and titration.\n\n\n\n\n\n\nEngineering\n\n\nTODO\n\n\n\n\n\n\nPhysics\n\n\nTODO\n\n\n\n\n\n\nSociology\n\n\nTODO\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/sociology/index.html",
-    "href": "applications/sociology/index.html",
-    "title": "Sociology",
+    "objectID": "applications/biology/ecology/index.html",
+    "href": "applications/biology/ecology/index.html",
+    "title": "Ecology",
     "section": "",
     "text": "Introduction not written yet."
   },
   {
-    "objectID": "applications/sociology/index.html#topics",
-    "href": "applications/sociology/index.html#topics",
-    "title": "Sociology",
+    "objectID": "applications/biology/ecology/index.html#topics",
+    "href": "applications/biology/ecology/index.html#topics",
+    "title": "Ecology",
     "section": "Topics",
     "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site is designed and created by Jeremy Upsal with contributions from\n\nGriffin Bandstetter\nPayton Howell\nAva Michler\nEmme McMullen\nFisher Ng\n\nThe site is licensed under CC BY 4.0.\nIndividual page contributions can be made using ___."
   },
   {
     "objectID": "math_topics/algebra/index.html",
@@ -539,25 +560,25 @@
     "text": "Connections\nEvery connection on the site tagged “Algebra”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "math_topics/exponentials/index.html",
-    "href": "math_topics/exponentials/index.html",
-    "title": "Exponentials",
+    "objectID": "math_topics/differential-equations/index.html",
+    "href": "math_topics/differential-equations/index.html",
+    "title": "Differential equations",
     "section": "",
     "text": "Not written yet."
   },
   {
-    "objectID": "math_topics/exponentials/index.html#background",
-    "href": "math_topics/exponentials/index.html#background",
-    "title": "Exponentials",
+    "objectID": "math_topics/differential-equations/index.html#background",
+    "href": "math_topics/differential-equations/index.html#background",
+    "title": "Differential equations",
     "section": "",
     "text": "Not written yet."
   },
   {
-    "objectID": "math_topics/exponentials/index.html#connections",
-    "href": "math_topics/exponentials/index.html#connections",
-    "title": "Exponentials",
+    "objectID": "math_topics/differential-equations/index.html#connections",
+    "href": "math_topics/differential-equations/index.html#connections",
+    "title": "Differential equations",
     "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Exponentials”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nKinetics and exponentials\n\n\nReactant concentrations are often exponentials.\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nNo matching items"
+    "text": "Connections\nEvery connection on the site tagged “Differential equations”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and differential equations\n\n\nTurn a reaction equation into an initial value problem or system of initial value problems.\n\n\nKinetics, Differential equations\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "math_topics/linear-algebra/index.html",
@@ -579,26 +600,5 @@
     "title": "Linear algebra",
     "section": "Connections",
     "text": "Connections\nEvery connection on the site tagged “Linear algebra”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "math_topics/optimization/index.html",
-    "href": "math_topics/optimization/index.html",
-    "title": "Optimization",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/optimization/index.html#background",
-    "href": "math_topics/optimization/index.html#background",
-    "title": "Optimization",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/optimization/index.html#connections",
-    "href": "math_topics/optimization/index.html#connections",
-    "title": "Optimization",
-    "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Optimization”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and optimization\n\n\nFind the maximum or minimum amount a substance during a reaction.\n\n\nKinetics, Optimization\n\n\n\n\n\n\nNo matching items"
   }
 ]
