@@ -1,80 +1,31 @@
 [
   {
-    "objectID": "math_topics/exponentials/index.html",
-    "href": "math_topics/exponentials/index.html",
-    "title": "Exponentials",
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute to MMA",
     "section": "",
-    "text": "Not written yet."
+    "text": "Before contributing, it’s a good idea to read the MMA website README. In particular, webpages are created using Quarto Markdown. We prefer that you contributions match the expected syntax as much as possible: these are the pages that will get published the fastest. If that is too much of a barrier, you can send anything you would like to share to us. Publishing may take longer, but we will work on getting it published.\nEvery submission is read by the website maintainers before it is published to the site.\nThe steps for contributing to MMA are below."
   },
   {
-    "objectID": "math_topics/exponentials/index.html#background",
-    "href": "math_topics/exponentials/index.html#background",
-    "title": "Exponentials",
-    "section": "",
-    "text": "Not written yet."
+    "objectID": "contribute.html#step-1-write-your-page",
+    "href": "contribute.html#step-1-write-your-page",
+    "title": "Contribute to MMA",
+    "section": "Step 1: Write your page",
+    "text": "Step 1: Write your page\nPlease read the MMA website README! Contributions that closely match the preferred format take priority and are published quicker!\n\nOption 1 (Preferred):\nDownload the template that fits what you are contributing, fill it in, and keep the file ending in .qmd.\n\nTopic page template (hub): a new application topic (for example, Titration).\nConnection template: one application topic used with one math topic.\nResource template: a lesson, worksheet or problem set that belongs to an existing connection.\n\n\n\nOption 2 (Not preferred, but totally fine if learning qmd is a barrier!)\nSend whatever you have. LaTeX is preferred, but a word document is also okay. Please try to match the format of existing pages as much as possible.\n\n\nInclude the following with your submission\nInclude: - your name and affiliation, if you would like to be credited on the page. - Any figures or a reference file (.bib) the page uses. If there is more than one file, put them all in a single zip file."
   },
   {
-    "objectID": "math_topics/exponentials/index.html#connections",
-    "href": "math_topics/exponentials/index.html#connections",
-    "title": "Exponentials",
-    "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Exponentials”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nKinetics and exponentials\n\n\nReactant concentrations are often exponentials.\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nNo matching items"
+    "objectID": "contribute.html#step-2-send-it-to-us",
+    "href": "contribute.html#step-2-send-it-to-us",
+    "title": "Contribute to MMA",
+    "section": "Step 2: Send it to us",
+    "text": "Step 2: Send it to us\nMMA needs contributions to thrive. We want to make this efficient, but we also don’t want to add barriers to contributing. There are many ways to contribute to MMA. Choose whichever submission method below that works for you. The options below are listed in the order of easiest for you (hardest for us) to hardest for you (easiest for us). We prefer the Option 4, but don’t let that stop you from contributing!\n\nOption 1: Email (easiest for contributors)\nAttach your file(s) to an email to jupsal@uw.edu with the subject line MMA Page Submission. In the message, say who you are and how you would like to be credited.\n\n\nOption 2: Google Form\nSubmit through the Google form. The form asks for your name, affiliation, a short description, and the file. You should include your email as well in case there are any questions.\n\n\nOption 3: GitHub pull request (easiest for maintainers)\nIf you already use GitHub, or want to learn, this is the best option: your change is reviewed, tracked, and credited to you automatically. See how to contribute with GitHub, or send Jeremy your GitHub username to be added to the repository."
   },
   {
-    "objectID": "math_topics/index.html",
-    "href": "math_topics/index.html",
-    "title": "MMA Math Topics",
-    "section": "",
-    "text": "Each math topic lists every connection that uses it, from any application area.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nAlgebra\n\n\nConnections that use algebra.\n\n\n\n\n\n\nDifferential equations\n\n\nConnections that use differential equations.\n\n\n\n\n\n\nExponentials\n\n\nConnections that use exponentials.\n\n\n\n\n\n\nLinear algebra\n\n\nConnections that use linear algebra.\n\n\n\n\n\n\nLogarithms\n\n\nConnections that use logarithms.\n\n\n\n\n\n\nOptimization\n\n\nConnections that use optimization.\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "math_topics/optimization/index.html",
-    "href": "math_topics/optimization/index.html",
-    "title": "Optimization",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/optimization/index.html#background",
-    "href": "math_topics/optimization/index.html#background",
-    "title": "Optimization",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/optimization/index.html#connections",
-    "href": "math_topics/optimization/index.html#connections",
-    "title": "Optimization",
-    "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Optimization”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and optimization\n\n\nFind the maximum or minimum amount a substance during a reaction.\n\n\nKinetics, Optimization\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "math_topics/logarithms/index.html",
-    "href": "math_topics/logarithms/index.html",
-    "title": "Logarithms",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/logarithms/index.html#background",
-    "href": "math_topics/logarithms/index.html#background",
-    "title": "Logarithms",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/logarithms/index.html#connections",
-    "href": "math_topics/logarithms/index.html#connections",
-    "title": "Logarithms",
-    "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Logarithms”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Motivating Mathematics through Applications (MMA)",
-    "section": "",
-    "text": "This website houses a growing assortment of lessons, worksheets, homework problems, and more for realistic connections between math and the myriad of ways math can be used in Science, Technology, Engineering, Sociology, Art, and more. Each application area has background reading targeted for math instructors to be able to quickly learn some background in the given application area.\n\nBrowse by application area.\nBrowse by math topic.\n\nYou can also search using the tool below:\nTODO\n\nUsing this webpage\nMMA creators! Start here."
+    "objectID": "contribute.html#what-happens-next",
+    "href": "contribute.html#what-happens-next",
+    "title": "Contribute to MMA",
+    "section": "What happens next",
+    "text": "What happens next\nThe maintainers read your submission, may write back with questions or suggestions, and then adds it to the site. You will be told when it is live."
   },
   {
     "objectID": "applications/biology/ecology/index.html",
@@ -91,20 +42,6 @@
     "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/index.html",
-    "href": "applications/index.html",
-    "title": "MMA Application Areas",
-    "section": "",
-    "text": "Each application has background for instructors and resources to use in class: lessons, worksheets, problems and more."
-  },
-  {
-    "objectID": "applications/index.html#application-areas",
-    "href": "applications/index.html#application-areas",
-    "title": "MMA Application Areas",
-    "section": "Application areas",
-    "text": "Application areas\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBiology\n\n\nTODO\n\n\n\n\n\n\nChemistry\n\n\nReaction equations, kinetics, stoichiometry and titration.\n\n\n\n\n\n\nEngineering\n\n\nTODO\n\n\n\n\n\n\nPhysics\n\n\nTODO\n\n\n\n\n\n\nSociology\n\n\nTODO\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "applications/physics/index.html",
     "href": "applications/physics/index.html",
     "title": "Physics",
@@ -119,53 +56,46 @@
     "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/index.html",
-    "href": "applications/chemistry/index.html",
-    "title": "Chemistry",
+    "objectID": "applications/chemistry/titration/index.html",
+    "href": "applications/chemistry/titration/index.html",
+    "title": "Titration",
     "section": "",
-    "text": "Introduction not written yet."
+    "text": "Part of: Chemistry"
   },
   {
-    "objectID": "applications/chemistry/index.html#topics",
-    "href": "applications/chemistry/index.html#topics",
-    "title": "Chemistry",
-    "section": "Topics",
-    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nReaction equations\n\n\nDefines a reaction equation with real examples. This is the starting point for kinetics and stoichiometry.\n\n\n\n\n\n\nTitration\n\n\nNot written yet.\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
-    "title": "Stoichiometry and linear algebra",
-    "section": "",
-    "text": "Related: Stoichiometry · Reaction equations · Linear algebra"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
-    "title": "Stoichiometry and linear algebra",
+    "objectID": "applications/chemistry/titration/index.html#background",
+    "href": "applications/chemistry/titration/index.html#background",
+    "title": "Titration",
     "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nNot written yet.\n\n\nNot written yet."
+    "text": "Background\nNot written yet."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nStoichiometry and algebra\nMatrices and row reduction"
+    "objectID": "applications/chemistry/titration/index.html#math-connections",
+    "href": "applications/chemistry/titration/index.html#math-connections",
+    "title": "Titration",
+    "section": "Math connections",
+    "text": "Math connections\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\nCategories\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html",
+    "title": "Stoichiometry",
+    "section": "",
+    "text": "Part of: Reaction equations · Chemistry"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
+    "title": "Stoichiometry",
+    "section": "Background",
+    "text": "Background\nBackground not written yet.\nExamples can be found on the Reaction equations page."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
+    "title": "Stoichiometry",
+    "section": "Math connections",
+    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
@@ -238,41 +168,6 @@
     "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
-    "title": "Chemical kinetics and differential equations",
-    "section": "",
-    "text": "Related: Kinetics · Reaction equations · Differential equations"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nReactions are represented by initial value problems. For example, the initial value problem for Example 3: Hydrogen peroxide catalase is \\[\n\\begin{aligned}\n    E'(t) &= -k_1 E\\ S + k_2 X\\ S - k_3 E, &E(0)= E_0\\\\\n    S'(t) &= -K_1 E\\ S - k_2 X\\ S, &S(0) = S_0\\\\\n    X'(t) &= K_1 E\\ S - k_2 X\\ S, &X(0) = X_0\\\\\n    P'(t) &= k_2 X\\ S, &P(0) = P_0\\\\\n    I'(t) &= k_3 E, &I(0) = 0\n\\end{aligned}\n\\] where\n\n\\(E\\) = the concentration of the catalase\n\\(S\\) = the concentration of hydrogen peroxide\n\\(X\\) = the concentration of an enzyme-substrate complex formed during the reaction of hydrogen peroxide and the catalase\n\\(P\\) = the concentration of the product formation (?) of ???\n\\(I\\) = the concentration of an inactive form of the catalase\n\nand \\(k_1\\), \\(k_2\\), and \\(k_3\\) are the rates of the reactions.\nThese equations are created in a similar manner to compartment models. We begin with the simplest example, \\(A \\to B\\), from the Reaction equations page.\n\n\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nReaction equations\nDerivatives"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\n\nConvert an application problem to a differential equation."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
     "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
     "title": "Chemical kinetics and logarithms",
@@ -306,6 +201,146 @@
     "title": "Chemical kinetics and logarithms",
     "section": "Resources",
     "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
+    "title": "Chemical kinetics and optimization",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Optimization"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#background",
+    "title": "Chemical kinetics and optimization",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nFind peak amount of substance.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#prerequisites",
+    "title": "Chemical kinetics and optimization",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nKinetics and differential equations\nDerivatives"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#learning-outcomes",
+    "title": "Chemical kinetics and optimization",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#resources",
+    "title": "Chemical kinetics and optimization",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/sociology/voting/logarithms/index.html",
+    "href": "applications/sociology/voting/logarithms/index.html",
+    "title": "Logarithms in voting",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Exponentials"
+  },
+  {
+    "objectID": "applications/sociology/voting/logarithms/index.html#background",
+    "href": "applications/sociology/voting/logarithms/index.html#background",
+    "title": "Logarithms in voting",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nThe solutions of many of the differential equations are exponentials.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/sociology/voting/logarithms/index.html#prerequisites",
+    "href": "applications/sociology/voting/logarithms/index.html#prerequisites",
+    "title": "Logarithms in voting",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nKinetics and differential equations\nExponential functions"
+  },
+  {
+    "objectID": "applications/sociology/voting/logarithms/index.html#learning-outcomes",
+    "href": "applications/sociology/voting/logarithms/index.html#learning-outcomes",
+    "title": "Logarithms in voting",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/sociology/voting/logarithms/index.html#resources",
+    "href": "applications/sociology/voting/logarithms/index.html#resources",
+    "title": "Logarithms in voting",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "math_topics/exponentials/index.html",
+    "href": "math_topics/exponentials/index.html",
+    "title": "Exponentials",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/exponentials/index.html#background",
+    "href": "math_topics/exponentials/index.html#background",
+    "title": "Exponentials",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/exponentials/index.html#connections",
+    "href": "math_topics/exponentials/index.html#connections",
+    "title": "Exponentials",
+    "section": "Connections",
+    "text": "Connections\nEvery connection on the site tagged “Exponentials”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nKinetics and exponentials\n\n\nReactant concentrations are often exponentials.\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nLogarithms in voting\n\n\nLogarithms are used in voting?\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "math_topics/index.html",
+    "href": "math_topics/index.html",
+    "title": "MMA Math Topics",
+    "section": "",
+    "text": "Each math topic lists every connection that uses it, from any application area.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nAlgebra\n\n\nConnections that use algebra.\n\n\n\n\n\n\nDifferential equations\n\n\nConnections that use differential equations.\n\n\n\n\n\n\nExponentials\n\n\nConnections that use exponentials.\n\n\n\n\n\n\nLinear algebra\n\n\nConnections that use linear algebra.\n\n\n\n\n\n\nLogarithms\n\n\nConnections that use logarithms.\n\n\n\n\n\n\nOptimization\n\n\nConnections that use optimization.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "math_topics/logarithms/index.html",
+    "href": "math_topics/logarithms/index.html",
+    "title": "Logarithms",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/logarithms/index.html#background",
+    "href": "math_topics/logarithms/index.html#background",
+    "title": "Logarithms",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/logarithms/index.html#connections",
+    "href": "math_topics/logarithms/index.html#connections",
+    "title": "Logarithms",
+    "section": "Connections",
+    "text": "Connections\nEvery connection on the site tagged “Logarithms”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "math_topics/optimization/index.html",
+    "href": "math_topics/optimization/index.html",
+    "title": "Optimization",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/optimization/index.html#background",
+    "href": "math_topics/optimization/index.html#background",
+    "title": "Optimization",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/optimization/index.html#connections",
+    "href": "math_topics/optimization/index.html#connections",
+    "title": "Optimization",
+    "section": "Connections",
+    "text": "Connections\nEvery connection on the site tagged “Optimization”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and optimization\n\n\nFind the maximum or minimum amount a substance during a reaction.\n\n\nKinetics, Optimization\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "webpage_README.html",
@@ -350,37 +385,142 @@
     "text": "Templates\nYou can use existing pages as templates, or find templates in ./_templates/."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
-    "title": "Chemical kinetics and optimization",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Related: Kinetics · Reaction equations · Optimization"
+    "text": "This site is designed and created by Jeremy Upsal with contributions from\n\nGriffin Bandstetter\nPayton Howell\nAva Michler\nEmme McMullen\nFisher Ng\n\nThe site is licensed under CC BY 4.0.\nContributors read the webpage_README. Individual page contributions can be made using ___."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#background",
-    "title": "Chemical kinetics and optimization",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Motivating Mathematics through Applications (MMA)",
+    "section": "",
+    "text": "This website houses a growing assortment of lessons, worksheets, homework problems, and more for realistic connections between math and the myriad of ways math can be used in Science, Technology, Engineering, Sociology, Art, and more. Each application area has background reading targeted for math instructors to be able to quickly learn some background in the given application area.\n\nBrowse by application area.\nBrowse by math topic.\n\nYou can also search using the tool below:\nTODO\n\nUsing this webpage\nMMA creators! Start here."
+  },
+  {
+    "objectID": "math_topics/algebra/index.html",
+    "href": "math_topics/algebra/index.html",
+    "title": "Algebra",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/algebra/index.html#background",
+    "href": "math_topics/algebra/index.html#background",
+    "title": "Algebra",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/algebra/index.html#connections",
+    "href": "math_topics/algebra/index.html#connections",
+    "title": "Algebra",
+    "section": "Connections",
+    "text": "Connections\nEvery connection on the site tagged “Algebra”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "math_topics/linear-algebra/index.html",
+    "href": "math_topics/linear-algebra/index.html",
+    "title": "Linear algebra",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/linear-algebra/index.html#background",
+    "href": "math_topics/linear-algebra/index.html#background",
+    "title": "Linear algebra",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/linear-algebra/index.html#connections",
+    "href": "math_topics/linear-algebra/index.html#connections",
+    "title": "Linear algebra",
+    "section": "Connections",
+    "text": "Connections\nEvery connection on the site tagged “Linear algebra”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "math_topics/differential-equations/index.html",
+    "href": "math_topics/differential-equations/index.html",
+    "title": "Differential equations",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/differential-equations/index.html#background",
+    "href": "math_topics/differential-equations/index.html#background",
+    "title": "Differential equations",
+    "section": "",
+    "text": "Not written yet."
+  },
+  {
+    "objectID": "math_topics/differential-equations/index.html#connections",
+    "href": "math_topics/differential-equations/index.html#connections",
+    "title": "Differential equations",
+    "section": "Connections",
+    "text": "Connections\nEvery connection on the site tagged “Differential equations”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and differential equations\n\n\nTurn a reaction equation into an initial value problem or system of initial value problems.\n\n\nKinetics, Differential equations\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/sociology/index.html",
+    "href": "applications/sociology/index.html",
+    "title": "Sociology",
+    "section": "",
+    "text": "Introduction not written yet."
+  },
+  {
+    "objectID": "applications/sociology/index.html#topics",
+    "href": "applications/sociology/index.html#topics",
+    "title": "Sociology",
+    "section": "Topics",
+    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nVoting\n\n\nThe mathematics of voting is interesting\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/sociology/voting/index.html",
+    "href": "applications/sociology/voting/index.html",
+    "title": "Voting",
+    "section": "",
+    "text": "introduction blah blah"
+  },
+  {
+    "objectID": "applications/sociology/voting/index.html#topics",
+    "href": "applications/sociology/voting/index.html#topics",
+    "title": "Voting",
+    "section": "Topics",
+    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nLogarithms in voting\n\n\nLogarithms are used in voting?\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
+    "title": "Chemical kinetics and differential equations",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Differential equations"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
+    "title": "Chemical kinetics and differential equations",
     "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nFind peak amount of substance.\n\n\nNot written yet."
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nReactions are represented by initial value problems. For example, the initial value problem for Example 3: Hydrogen peroxide catalase is \\[\n\\begin{aligned}\n    E'(t) &= -k_1 E\\ S + k_2 X\\ S - k_3 E, &E(0)= E_0\\\\\n    S'(t) &= -K_1 E\\ S - k_2 X\\ S, &S(0) = S_0\\\\\n    X'(t) &= K_1 E\\ S - k_2 X\\ S, &X(0) = X_0\\\\\n    P'(t) &= k_2 X\\ S, &P(0) = P_0\\\\\n    I'(t) &= k_3 E, &I(0) = 0\n\\end{aligned}\n\\] where\n\n\\(E\\) = the concentration of the catalase\n\\(S\\) = the concentration of hydrogen peroxide\n\\(X\\) = the concentration of an enzyme-substrate complex formed during the reaction of hydrogen peroxide and the catalase\n\\(P\\) = the concentration of the product formation (?) of ???\n\\(I\\) = the concentration of an inactive form of the catalase\n\nand \\(k_1\\), \\(k_2\\), and \\(k_3\\) are the rates of the reactions.\nThese equations are created in a similar manner to compartment models. We begin with the simplest example, \\(A \\to B\\), from the Reaction equations page.\n\n\nNot written yet."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#prerequisites",
-    "title": "Chemical kinetics and optimization",
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
+    "title": "Chemical kinetics and differential equations",
     "section": "Prerequisites",
-    "text": "Prerequisites\n\nKinetics and differential equations\nDerivatives"
+    "text": "Prerequisites\n\nReaction equations\nDerivatives"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#learning-outcomes",
-    "title": "Chemical kinetics and optimization",
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
+    "title": "Chemical kinetics and differential equations",
     "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
+    "text": "Learning outcomes\n\nConvert an application problem to a differential equation."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#resources",
-    "title": "Chemical kinetics and optimization",
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
+    "title": "Chemical kinetics and differential equations",
     "section": "Resources",
     "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
@@ -448,60 +588,53 @@
     "text": "Footnotes\n\n\nSee Wikipedia contributors (2026).↩︎"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html",
-    "title": "Stoichiometry",
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
+    "title": "Stoichiometry and linear algebra",
     "section": "",
-    "text": "Part of: Reaction equations · Chemistry"
+    "text": "Related: Stoichiometry · Reaction equations · Linear algebra"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
-    "title": "Stoichiometry",
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
+    "title": "Stoichiometry and linear algebra",
     "section": "Background",
-    "text": "Background\nBackground not written yet.\nExamples can be found on the Reaction equations page."
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nNot written yet.\n\n\nNot written yet."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
-    "title": "Stoichiometry",
-    "section": "Math connections",
-    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nStoichiometry and algebra\nMatrices and row reduction"
   },
   {
-    "objectID": "applications/chemistry/titration/index.html",
-    "href": "applications/chemistry/titration/index.html",
-    "title": "Titration",
-    "section": "",
-    "text": "Part of: Chemistry"
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
   },
   {
-    "objectID": "applications/chemistry/titration/index.html#background",
-    "href": "applications/chemistry/titration/index.html#background",
-    "title": "Titration",
-    "section": "Background",
-    "text": "Background\nNot written yet."
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/titration/index.html#math-connections",
-    "href": "applications/chemistry/titration/index.html#math-connections",
-    "title": "Titration",
-    "section": "Math connections",
-    "text": "Math connections\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\nCategories\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/sociology/index.html",
-    "href": "applications/sociology/index.html",
-    "title": "Sociology",
+    "objectID": "applications/chemistry/index.html",
+    "href": "applications/chemistry/index.html",
+    "title": "Chemistry",
     "section": "",
     "text": "Introduction not written yet."
   },
   {
-    "objectID": "applications/sociology/index.html#topics",
-    "href": "applications/sociology/index.html#topics",
-    "title": "Sociology",
+    "objectID": "applications/chemistry/index.html#topics",
+    "href": "applications/chemistry/index.html#topics",
+    "title": "Chemistry",
     "section": "Topics",
-    "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nReaction equations\n\n\nDefines a reaction equation with real examples. This is the starting point for kinetics and stoichiometry.\n\n\n\n\n\n\nTitration\n\n\nNot written yet.\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "applications/engineering/index.html",
@@ -518,6 +651,20 @@
     "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "applications/index.html",
+    "href": "applications/index.html",
+    "title": "MMA Application Areas",
+    "section": "",
+    "text": "Each application has background for instructors and resources to use in class: lessons, worksheets, problems and more."
+  },
+  {
+    "objectID": "applications/index.html#application-areas",
+    "href": "applications/index.html#application-areas",
+    "title": "MMA Application Areas",
+    "section": "Application areas",
+    "text": "Application areas\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBiology\n\n\nTODO\n\n\n\n\n\n\nChemistry\n\n\nReaction equations, kinetics, stoichiometry and titration.\n\n\n\n\n\n\nEngineering\n\n\nTODO\n\n\n\n\n\n\nPhysics\n\n\nTODO\n\n\n\n\n\n\nSociology\n\n\nTODO\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "applications/biology/index.html",
     "href": "applications/biology/index.html",
     "title": "Biology",
@@ -530,103 +677,5 @@
     "title": "Biology",
     "section": "Topics",
     "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nEcology\n\n\nTODO\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "Contribute to MMA",
-    "section": "",
-    "text": "Before contributing, it’s a good idea to read the MMA website README. In particular, webpages are created using Quarto Markdown. We prefer that you contributions match the expected syntax as much as possible: these are the pages that will get published the fastest. If that is too much of a barrier, you can send anything you would like to share to us. Publishing may take longer, but we will work on getting it published.\nEvery submission is read by the website maintainers before it is published to the site.\nThe steps for contributing to MMA are below."
-  },
-  {
-    "objectID": "contribute.html#step-1-write-your-page",
-    "href": "contribute.html#step-1-write-your-page",
-    "title": "Contribute to MMA",
-    "section": "Step 1: Write your page",
-    "text": "Step 1: Write your page\nPlease read the MMA website README! Contributions that closely match the preferred format take priority and are published quicker!\n\nOption 1 (Preferred):\nDownload the template that fits what you are contributing, fill it in, and keep the file ending in .qmd.\n\nTopic page template (hub): a new application topic (for example, Titration).\nConnection template: one application topic used with one math topic.\nResource template: a lesson, worksheet or problem set that belongs to an existing connection.\n\n\n\nOption 2 (Not preferred, but totally fine if learning qmd is a barrier!)\nSend whatever you have. LaTeX is preferred, but a word document is also okay. Please try to match the format of existing pages as much as possible.\n\n\nInclude the following with your submission\nInclude: - your name and affiliation, if you would like to be credited on the page. - Any figures or a reference file (.bib) the page uses. If there is more than one file, put them all in a single zip file."
-  },
-  {
-    "objectID": "contribute.html#step-2-send-it-to-us",
-    "href": "contribute.html#step-2-send-it-to-us",
-    "title": "Contribute to MMA",
-    "section": "Step 2: Send it to us",
-    "text": "Step 2: Send it to us\nMMA needs contributions to thrive. We want to make this efficient, but we also don’t want to add barriers to contributing. There are many ways to contribute to MMA. Choose whichever submission method below that works for you. The options below are listed in the order of easiest for you (hardest for us) to hardest for you (easiest for us). We prefer the Option 4, but don’t let that stop you from contributing!\n\nOption 1: Email (easiest for contributors)\nAttach your file(s) to an email to jupsal@uw.edu with the subject line MMA Page Submission. In the message, say who you are and how you would like to be credited.\n\n\nOption 2: Google Form\nSubmit through the Google form. The form asks for your name, affiliation, a short description, and the file. You should include your email as well in case there are any questions.\n\n\nOption 3: GitHub pull request (easiest for maintainers)\nIf you already use GitHub, or want to learn, this is the best option: your change is reviewed, tracked, and credited to you automatically. See how to contribute with GitHub, or send Jeremy your GitHub username to be added to the repository."
-  },
-  {
-    "objectID": "contribute.html#what-happens-next",
-    "href": "contribute.html#what-happens-next",
-    "title": "Contribute to MMA",
-    "section": "What happens next",
-    "text": "What happens next\nThe maintainers read your submission, may write back with questions or suggestions, and then adds it to the site. You will be told when it is live."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This site is designed and created by Jeremy Upsal with contributions from\n\nGriffin Bandstetter\nPayton Howell\nAva Michler\nEmme McMullen\nFisher Ng\n\nThe site is licensed under CC BY 4.0.\nIndividual page contributions can be made using ___."
-  },
-  {
-    "objectID": "math_topics/algebra/index.html",
-    "href": "math_topics/algebra/index.html",
-    "title": "Algebra",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/algebra/index.html#background",
-    "href": "math_topics/algebra/index.html#background",
-    "title": "Algebra",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/algebra/index.html#connections",
-    "href": "math_topics/algebra/index.html#connections",
-    "title": "Algebra",
-    "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Algebra”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "math_topics/differential-equations/index.html",
-    "href": "math_topics/differential-equations/index.html",
-    "title": "Differential equations",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/differential-equations/index.html#background",
-    "href": "math_topics/differential-equations/index.html#background",
-    "title": "Differential equations",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/differential-equations/index.html#connections",
-    "href": "math_topics/differential-equations/index.html#connections",
-    "title": "Differential equations",
-    "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Differential equations”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and differential equations\n\n\nTurn a reaction equation into an initial value problem or system of initial value problems.\n\n\nKinetics, Differential equations\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "math_topics/linear-algebra/index.html",
-    "href": "math_topics/linear-algebra/index.html",
-    "title": "Linear algebra",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/linear-algebra/index.html#background",
-    "href": "math_topics/linear-algebra/index.html#background",
-    "title": "Linear algebra",
-    "section": "",
-    "text": "Not written yet."
-  },
-  {
-    "objectID": "math_topics/linear-algebra/index.html#connections",
-    "href": "math_topics/linear-algebra/index.html#connections",
-    "title": "Linear algebra",
-    "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Linear algebra”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
   }
 ]
