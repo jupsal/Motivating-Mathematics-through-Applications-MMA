@@ -198,6 +198,101 @@ guide](https://pandoc.org/demo/example33/8.18-divs-and-spans.html) for more. You
 Without this block, Quarto automatically puts the list at the end of the page
 without a header. 
 
+# Contributing to the MMA website with GitHub {#sec-github}
 
-## Templates
+The instructions below are for developers who plan to submit several pages to
+MMA. You should use GitHub if that applies to you. If you plan to contribute only a few times, see the [contribute to MMA](contribute.qmd) page.
+
+The website's source files are kept in a [GitHub
+repository](https://github.com/jupsal/Motivating-Mathematics-through-Applications-MMA/settings/pages). You can contribute by downloading the source code, making changes on your own computer, and then sending them to GitHub as a **pull request**.
+Once the maintainer (Jeremy) approves it, GitHub rebuilds and publishes the website
+automatically.
+
+
+### Set up (once)
+
+If you have GitHub set up, continue on to step 4 below. If you are new to
+GitHub, open the note below and get started with GitHub!
+
+::: {.callout-note collapse="true"}
+## Setup GitHub
+1. **Create a free account** at <https://github.com> and send Jeremy your GitHub
+   username. You will get an email invitation to the repository.
+2. **Install some software**:
+   - Git: <https://git-scm.com/downloads>
+   - Quarto: <https://quarto.org/docs/get-started/>
+   - (optional, but you need a way to edit .qmd files) VS Code: <https://code.visualstudio.com>, plus its **Quarto** extension
+3. **Setup Git on your computer** Open a terminal. You can do this using
+    "terminal" in MacOS, Windows Powershell, or in VS Code. Run the following
+    commands with the email address of your GitHub account: 
+
+   ```
+   git config --global user.name "Your Name"
+   git config --global user.email "you@example.com"
+   ```
+:::
+
+4. **Download the project to your computer** In the terminal, go to the folder where you
+   want to keep the source code and run:
+
+   ```
+   git clone https://github.com/<maintainer-github-name>/mma.git
+   ```
+
+   This creates a folder named `mma` with all the files. Open that folder
+   in an editor such as VS Code.
+
+### Making changes
+
+Run these in the VS Code terminal, inside the `mma` folder.
+
+1. **Get the latest version:**
+
+   ```
+   git switch main
+   git pull
+   ```
+
+2. **Start a branch** for your changes. A branch is your own working copy of the
+  source code. It allows you to make changes without worrying about messing up the
+  published version of the source code. You should name the branch after what you
+  are working on. For example, 
+
+   ```
+   git switch -c add-titration-background
+   ```
+
+   This switches your branch to a branch called "add-titration-background". 
+
+3. **Edit** the `.qmd` files (see @sec-templates). To see your changes in a
+  browser as you work, type the following in the command line in the main MMA folder. 
+
+   ```
+   quarto preview
+   ```
+
+4. **Save your changes and send them to GitHub:**
+
+   ```
+   git add .
+   git commit -m "A short description of what you changed"
+   git push -u origin add-titration-background
+   ```
+
+   The first time you push, a browser window asks you to sign in to GitHub to
+   confirm your identity.
+
+5. **Open a pull request.** Go to the repository page on GitHub. A yellow
+   bar shows your branch with a **Compare & pull request** button. Click
+   it, describe your change, and click **Create pull request**.
+
+Jeremy will review the pull request and consider if it is ready to publish or if
+changes need to be made. If changes need to be made, make the changes and
+complete step 4 again (`git push`). If changes are approved, the website will be
+updated automatically. 
+
+By default **you cannot push directly to `main` - that's where the published
+website is!**
+
+## Templates {#sec-templates}
 You can use existing pages as templates, or find templates in `./_templates/`. 

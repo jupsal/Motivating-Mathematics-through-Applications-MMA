@@ -1,0 +1,87 @@
+---
+title: "Contribute to MMA"
+description: "MMA is an open-source resource. Contributions from the community are encouraged. This page describes how you can create and share resources to improve MMA."
+toc: false
+---
+
+Before contributing, it's a good idea to read the [MMA website
+README](webpage_README.qmd). In particular, webpages are created using [Quarto
+Markdown](https://quarto.org/docs/authoring/markdown-basics.html). We prefer
+that you contributions match the expected syntax as much as possible: these are
+the pages that will get published the fastest. If that is too much of a barrier,
+you can send anything you would like to share to us. Publishing may take longer,
+but we will work on getting it published. 
+
+Every submission is read by the website maintainers before it is published to
+the site.
+
+::: {.callout-note}
+Contributions to MMA are property of the author (you!) and will be credited as
+such. If there is significant work from someone else (e.g., getting it to the
+correct format), they may also be credited. 
+
+All contributions to MMA must match the MMA license. 
+:::
+
+The steps for contributing to MMA are below. 
+
+## Step 1: Write your page
+Please read the [MMA website README](webpage_README.qmd)! Contributions that
+closely match the preferred format take priority and are published quicker!
+
+### Option 1 (Preferred):
+Download the template that fits what you are contributing, fill it in, and
+keep the file ending in `.qmd`.
+
+- [Topic page template (hub)](_templates/hub.qmd){download="hub-template.qmd"}:
+  a new application topic (for example, Titration).
+- [Connection template](_templates/connection.qmd){download="connection-template.qmd"}:
+  one application topic used with one math topic.
+- [Resource template](_templates/resource.qmd){download="resource-template.qmd"}:
+  a lesson, worksheet or problem set that belongs to an existing connection.
+
+### Option 2 (Not preferred, but totally fine if learning qmd is a barrier!)
+Send whatever you have. LaTeX is preferred, but a word document is also okay.
+Please try to match the format of existing pages as much as possible.
+
+
+### Include the following with your submission
+Include:
+  - your **name and affiliation**, if you would like to be credited on the page.
+  - Any **figures or a reference file** (`.bib`) the page uses. If there is
+    more than one file, put them all in a single zip file.
+
+
+## Step 2: Send it to us
+MMA needs contributions to thrive. We want to make this efficient, but we also
+don't want to add barriers to contributing. There are many ways to contribute to
+MMA. Choose whichever submission method below that works for you. The options
+below are listed in the order of easiest for you (hardest for us) to hardest for
+you (easiest for us). We prefer the Option 4, but don't let that stop you from
+contributing!
+
+### Option 1: Email (easiest for contributors)
+
+Attach your file(s) to an email to
+[jupsal@uw.edu](mailto:jupsal@uw.edu?subject=MMA%20Page%20Submission) with
+the subject line **MMA Page Submission**. In the message, say who you are
+and how you would like to be credited.
+
+### Option 2: Google Form
+
+[Submit through the Google form](https://docs.google.com/forms/d/e/1FAIpQLSdxOhbR5HnVKtemq2Vtk8LiF4z-SpC-qmdEo1_gMrLqq0bvZA/viewform?usp=publish-editor). The form asks for your
+name, affiliation, a short description, and the file. You should include your email as well in case there are any questions. 
+
+
+### Option 3: GitHub pull request (easiest for maintainers)
+
+If you already use GitHub, or want to learn, this is the best option: your
+change is reviewed, tracked, and credited to you automatically. See
+[how to contribute with GitHub](webpage_README.qmd#sec-github), or send
+Jeremy your GitHub username to be added to the repository.
+
+
+## What happens next
+
+The maintainers read your submission, may write back with questions or
+suggestions, and then adds it to the site. You will be told when it is live.

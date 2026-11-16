@@ -10,6 +10,10 @@ website:
         text: Applications
       - href: math_topics/index.qmd
         text: Math topics
+      - href: webpage_README.qmd
+        text: Website README
+      - href: contribute.qmd
+        text: Contribute to MMA
     right:
       - href: about.qmd
         text: About
