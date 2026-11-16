@@ -1,0 +1,51 @@
+---
+# A connection page: one application topic & one math topic.
+# Copy to  applications/<field>/<topic>/<math-topic>/index.qmd
+title: "Application topic & math topic"
+description: "short description, shown in the lists on other pages."
+# The application topic, then the math topic. The math topic must match
+# a math hub's title exactly (e.g. "Logarithms") to appear on that hub.
+categories: [Chemical Kinetics, Logarithms]
+listing:
+  id: resources
+  contents: "./resources/*.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+**Related:** [Topic](../index.qmd) · [Math topic](/math_topics/logarithms/index.qmd)
+
+## Background
+
+::: {.panel-tabset}
+
+### Minimum
+
+A paragraph you could say in class.
+
+### Medium
+
+About a page.
+
+### Extended
+
+A deep dive, with references.
+
+:::
+
+## Prerequisites
+
+- [A page on this site](../../index.qmd)
+- A topic without a page yet
+
+## Learning outcomes
+
+- Outcome, starting with a measurable verb.
+
+## Resources
+
+Lessons, worksheets, problems and other resources for this connection.
+
+::: {#resources}
+:::

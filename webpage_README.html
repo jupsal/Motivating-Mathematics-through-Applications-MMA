@@ -138,6 +138,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="./math_topics/index.html"> 
 <span class="menu-text">Math topics</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./webpage_README.html" aria-current="page"> 
+<span class="menu-text">Website README</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contribute.html"> 
+<span class="menu-text">Contribute to MMA</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -167,7 +175,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#webpage-structure" id="toc-webpage-structure" class="nav-link" data-scroll-target="#webpage-structure">Webpage structure</a></li>
   <li><a href="#site-wide-files" id="toc-site-wide-files" class="nav-link" data-scroll-target="#site-wide-files">Site-wide files</a></li>
   <li><a href="#how-pages-work" id="toc-how-pages-work" class="nav-link" data-scroll-target="#how-pages-work">How pages work</a></li>
-  <li><a href="#templates" id="toc-templates" class="nav-link" data-scroll-target="#templates">Templates</a></li>
+  </ul></li>
+  <li><a href="#sec-github" id="toc-sec-github" class="nav-link" data-scroll-target="#sec-github">Contributing to the MMA website with GitHub</a>
+  <ul class="collapse">
+  <li><a href="#set-up-once" id="toc-set-up-once" class="nav-link" data-scroll-target="#set-up-once">Set up (once)</a></li>
+  <li><a href="#making-changes" id="toc-making-changes" class="nav-link" data-scroll-target="#making-changes">Making changes</a></li>
+  <li><a href="#sec-templates" id="toc-sec-templates" class="nav-link" data-scroll-target="#sec-templates">Templates</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -335,8 +348,71 @@ Note
 <p>Without this block, Quarto automatically puts the list at the end of the page without a header.</p>
 </section>
 </section>
-<section id="templates" class="level2">
-<h2 class="anchored" data-anchor-id="templates">Templates</h2>
+</section>
+<section id="sec-github" class="level1">
+<h1>Contributing to the MMA website with GitHub</h1>
+<p>The instructions below are for developers who plan to submit several pages to MMA. You should use GitHub if that applies to you. If you plan to contribute only a few times, see the <a href="./contribute.html">contribute to MMA</a> page.</p>
+<p>The website’s source files are kept in a <a href="https://github.com/jupsal/Motivating-Mathematics-through-Applications-MMA/settings/pages">GitHub repository</a>. You can contribute by downloading the source code, making changes on your own computer, and then sending them to GitHub as a <strong>pull request</strong>. Once the maintainer (Jeremy) approves it, GitHub rebuilds and publishes the website automatically.</p>
+<section id="set-up-once" class="level3">
+<h3 class="anchored" data-anchor-id="set-up-once">Set up (once)</h3>
+<p>If you have GitHub set up, continue on to step 4 below. If you are new to GitHub, open the note below and get started with GitHub!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Setup GitHub
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p><strong>Create a free account</strong> at <a href="https://github.com" class="uri">https://github.com</a> and send Jeremy your GitHub username. You will get an email invitation to the repository.</p></li>
+<li><p><strong>Install some software</strong>:</p>
+<ul>
+<li>Git: <a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a></li>
+<li>Quarto: <a href="https://quarto.org/docs/get-started/" class="uri">https://quarto.org/docs/get-started/</a></li>
+<li>(optional, but you need a way to edit .qmd files) VS Code: <a href="https://code.visualstudio.com" class="uri">https://code.visualstudio.com</a>, plus its <strong>Quarto</strong> extension</li>
+</ul></li>
+<li><p><strong>Setup Git on your computer</strong> Open a terminal. You can do this using “terminal” in MacOS, Windows Powershell, or in VS Code. Run the following commands with the email address of your GitHub account:</p>
+<pre><code>git config --global user.name "Your Name"
+git config --global user.email "you@example.com"</code></pre></li>
+</ol>
+</div>
+</div>
+</div>
+<ol start="4" type="1">
+<li><p><strong>Download the project to your computer</strong> In the terminal, go to the folder where you want to keep the source code and run:</p>
+<pre><code>git clone https://github.com/&lt;maintainer-github-name&gt;/mma.git</code></pre>
+<p>This creates a folder named <code>mma</code> with all the files. Open that folder in an editor such as VS Code.</p></li>
+</ol>
+</section>
+<section id="making-changes" class="level3">
+<h3 class="anchored" data-anchor-id="making-changes">Making changes</h3>
+<p>Run these in the VS Code terminal, inside the <code>mma</code> folder.</p>
+<ol type="1">
+<li><p><strong>Get the latest version:</strong></p>
+<pre><code>git switch main
+git pull</code></pre></li>
+<li><p><strong>Start a branch</strong> for your changes. A branch is your own working copy of the source code. It allows you to make changes without worrying about messing up the published version of the source code. You should name the branch after what you are working on. For example,</p>
+<pre><code>git switch -c add-titration-background</code></pre>
+<p>This switches your branch to a branch called “add-titration-background”.</p></li>
+<li><p><strong>Edit</strong> the <code>.qmd</code> files (see <a href="#sec-templates" class="quarto-xref">Section&nbsp;2.1</a>). To see your changes in a browser as you work, type the following in the command line in the main MMA folder.</p>
+<pre><code>quarto preview</code></pre></li>
+<li><p><strong>Save your changes and send them to GitHub:</strong></p>
+<pre><code>git add .
+git commit -m "A short description of what you changed"
+git push -u origin add-titration-background</code></pre>
+<p>The first time you push, a browser window asks you to sign in to GitHub to confirm your identity.</p></li>
+<li><p><strong>Open a pull request.</strong> Go to the repository page on GitHub. A yellow bar shows your branch with a <strong>Compare &amp; pull request</strong> button. Click it, describe your change, and click <strong>Create pull request</strong>.</p></li>
+</ol>
+<p>Jeremy will review the pull request and consider if it is ready to publish or if changes need to be made. If changes need to be made, make the changes and complete step 4 again (<code>git push</code>). If changes are approved, the website will be updated automatically.</p>
+<p>By default <strong>you cannot push directly to <code>main</code> - that’s where the published website is!</strong></p>
+</section>
+<section id="sec-templates" class="level2">
+<h2 class="anchored" data-anchor-id="sec-templates">Templates</h2>
 <p>You can use existing pages as templates, or find templates in <code>./_templates/</code>.</p>
 
 

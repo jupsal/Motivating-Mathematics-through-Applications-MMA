@@ -1,0 +1,24 @@
+---
+# A hub page: an application topic (e.g. Chemical Kinetics) or a group of
+# topics.  Copy to  applications/<field>/<topic>/index.qmd
+title: "Topic name"
+description: "Short description, shown in the lists on other pages."
+categories: [Chemistry]          # the hubs this one sits under, if any
+listing:
+  id: connections
+  contents: "./*/index.qmd"      # the pages in the folders directly below
+  type: table
+  fields: [title, description, categories]
+  sort: title
+---
+
+**Part of:** [Parent topic](../index.qmd)
+
+## Background
+
+*Not written yet.*
+
+## Math connections
+
+::: {#connections}
+:::
