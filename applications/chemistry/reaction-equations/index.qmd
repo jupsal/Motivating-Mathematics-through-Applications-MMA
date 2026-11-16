@@ -2,6 +2,7 @@
 title: "Reaction equations"
 description: "Defines a reaction equation with real examples. This is the starting point for kinetics and stoichiometry."
 categories: [Chemistry]
+math_categories: [blah]
 bibliography: ../chem_refs.bib
 listing:
   - id: topics

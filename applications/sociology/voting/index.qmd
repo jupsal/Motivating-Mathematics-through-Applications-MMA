@@ -1,0 +1,17 @@
+---
+title: "Voting"
+description: "The mathematics of voting is interesting"
+listing:
+  id: topics
+  contents: "./*/index.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+introduction blah blah
+
+## Topics
+
+::: {#topics}
+:::

@@ -12,4 +12,4 @@ This site is designed and created by Jeremy Upsal with contributions from
 
 The site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-Individual page contributions can be made using ___. 
+Contributors read the [webpage_README](webpage_README.qmd). Individual page contributions can be made using ___. 
