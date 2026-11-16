@@ -1,0 +1,23 @@
+---
+title: "Optimization"
+description: "Connections that use optimization."
+listing:
+  id: connections
+  contents: "../../applications/**/index.qmd"
+  include:
+    categories: "Optimization"
+  type: table
+  fields: [title, description, categories]
+  sort: title
+---
+
+## Background
+
+*Not written yet.*
+
+## Connections
+
+Every connection on the site tagged "Optimization".
+
+::: {#connections}
+:::

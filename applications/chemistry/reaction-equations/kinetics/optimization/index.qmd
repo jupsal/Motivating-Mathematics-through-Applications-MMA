@@ -1,0 +1,47 @@
+---
+title: "Chemical kinetics and optimization"
+description: "Find the maximum or minimum amount a substance during a reaction."
+categories: [Kinetics, Optimization]
+listing:
+  id: resources
+  contents: "./resources/*.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+**Related:** [Kinetics](../index.qmd) · [Reaction equations](../../index.qmd) · [Optimization](../../../../../math/optimization/index.qmd)
+
+## Background
+
+::: {.panel-tabset}
+
+### Minimum
+
+*Not written yet.*
+
+### Medium
+
+Find peak amount of substance.
+
+### Extended
+
+*Not written yet.*
+
+:::
+
+## Prerequisites
+
+- [Kinetics and differential equations](../odes/index.qmd)
+- Derivatives
+
+## Learning outcomes
+
+*Not written yet.*
+
+## Resources
+
+Lessons, worksheets, problems and other resources for this connection.
+
+::: {#resources}
+:::

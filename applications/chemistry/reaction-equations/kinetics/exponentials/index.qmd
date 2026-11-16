@@ -1,0 +1,47 @@
+---
+title: "Kinetics and exponentials"
+description: "Reactant concentrations are often exponentials."
+categories: [Kinetics, Exponentials]
+listing:
+  id: resources
+  contents: "./resources/*.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+**Related:** [Kinetics](../index.qmd) · [Reaction equations](../../index.qmd) · [Exponentials](../../../../../math/exponentials/index.qmd)
+
+## Background
+
+::: {.panel-tabset}
+
+### Minimum
+
+*Not written yet.*
+
+### Medium
+
+The solutions of many of the differential equations are exponentials.
+
+### Extended
+
+*Not written yet.*
+
+:::
+
+## Prerequisites
+
+- [Kinetics and differential equations](../odes/index.qmd)
+- Exponential functions
+
+## Learning outcomes
+
+*Not written yet.*
+
+## Resources
+
+Lessons, worksheets, problems and other resources for this connection.
+
+::: {#resources}
+:::

@@ -1,0 +1,24 @@
+---
+title: "Stoichiometry"
+description: "Balancing reaction equations."
+categories: [Chemistry, Reaction equations]
+listing:
+  id: connections
+  contents: "./*/index.qmd"
+  type: table
+  fields: [title, description, categories]
+  sort: title
+---
+
+**Part of:** [Reaction equations](../index.qmd) · [Chemistry](../../index.qmd)
+
+## Background
+
+*Background not written yet.*
+
+Examples can be found on the [Reaction equations](../index.qmd#sec-examples) page.
+
+## Math connections
+
+::: {#connections}
+:::

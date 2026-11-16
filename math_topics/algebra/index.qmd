@@ -1,0 +1,23 @@
+---
+title: "Algebra"
+description: "Connections that use algebra."
+listing:
+  id: connections
+  contents: "../../applications/**/index.qmd"
+  include:
+    categories: "Algebra"
+  type: table
+  fields: [title, description, categories]
+  sort: title
+---
+
+## Background
+
+*Not written yet.*
+
+## Connections
+
+Every connection on the site tagged "Algebra".
+
+::: {#connections}
+:::

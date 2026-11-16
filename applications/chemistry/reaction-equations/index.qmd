@@ -1,0 +1,61 @@
+---
+title: "Reaction equations"
+description: "Defines a reaction equation with real examples. This is the starting point for kinetics and stoichiometry."
+categories: [Chemistry]
+bibliography: ../chem_refs.bib
+listing:
+  - id: topics
+    contents: "./*/index.qmd"
+    type: table
+    fields: [title, description]
+    sort: title
+  - id: connections
+    contents: "./*/*/index.qmd"
+    type: table
+    fields: [title, description, categories]
+    sort: title
+---
+
+**Part of:** [Chemistry](../index.qmd)
+
+## Background
+
+A chemical reaction is usually written as a reaction equation, e.g.,
+$$ A \to B$$ {#eq-simple-reaction}
+
+This simple reaction equation says that reactant (chemical) $A$ reacts to create
+the product $B$. Some real chemical reaction equation examples follow.
+
+## Examples {#sec-examples}
+
+### Example 1: Hydrogen Peroxide Breakdown {#sec-hydrogen-peroxide-breakdown}
+Hydrogen peroxide, $\mathrm{H_2O_2}$, slowly decomposes into water and oxygen
+gas. This reaction is sped up by blood, causing bubbling, and sunlight, which is
+why it's sold in brown containers. The reaction equation is
+$$2\,\mathrm{H_2O_2} \to 2\,\mathrm{H_2O} + \mathrm{O_2}$$ {#eq-hydrogen-peroxide-breakdown}
+
+This reaction equation says that $2$ hydrogen peroxide molecules break down to produce two molecules of water ($\mathrm{H_2O}$) and one molecule of oxygen gas ($\mathrm{O_2}$).
+
+### Example 2: Bleaching with hydrogen peroxide[^bleaching] {#sec-hydrogen-peroxide-bleaching}
+Hydrogen peroxide is used for bleaching paper and as a bleaching-agent in
+laundry detergent. Borax ($\mathrm{Na_2 B_4 O_7}$), hydrogen peroxide
+($\mathrm{H_2O_2}$), and Lye ($\mathrm{NaOH}$) combine to form sodium perborate
+($\mathrm{Na_2 B_2 O_4 (OH)_4}$), a mild bleach. The reaction equation is
+below.
+ $$\mathrm{Na_2 B_4 O_7} + 4\mathrm{H_2O_2} + 2\mathrm{NaOH} \to 2
+\mathrm{Na_2B_2O_4(OH)_4} + \mathrm{H_2O}$$
+
+### Example 3: Hydrogen peroxide catalase {#sec-hydrogen-peroxide-catalase}
+See @hydrogen-peroxide-catalase
+
+## Topics
+
+::: {#topics}
+:::
+
+## All math connections
+
+::: {#connections}
+:::
+
+[^bleaching]: See @wikipedia-hydrogen-peroxide.

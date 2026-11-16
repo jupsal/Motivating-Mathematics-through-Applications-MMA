@@ -1,0 +1,23 @@
+---
+title: "Logarithms"
+description: "Connections that use logarithms."
+listing:
+  id: connections
+  contents: "../../applications/**/index.qmd"
+  include:
+    categories: "Logarithms"
+  type: table
+  fields: [title, description, categories]
+  sort: title
+---
+
+## Background
+
+*Not written yet.*
+
+## Connections
+
+Every connection on the site tagged "Logarithms".
+
+::: {#connections}
+:::

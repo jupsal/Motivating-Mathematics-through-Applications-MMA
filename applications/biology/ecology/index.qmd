@@ -1,0 +1,17 @@
+---
+title: "Ecology"
+description: "TODO"
+listing:
+  id: topics
+  contents: "./*/index.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+*Introduction not written yet.*
+
+## Topics
+
+::: {#topics}
+:::

@@ -1,0 +1,47 @@
+---
+title: "Stoichiometry and linear algebra"
+description: "Not written yet."
+categories: [Stoichiometry, Linear algebra]
+listing:
+  id: resources
+  contents: "./resources/*.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+**Related:** [Stoichiometry](../index.qmd) · [Reaction equations](../../index.qmd) · [Linear algebra](../../../../../math/linear-algebra/index.qmd)
+
+## Background
+
+::: {.panel-tabset}
+
+### Minimum
+
+*Not written yet.*
+
+### Medium
+
+*Not written yet.*
+
+### Extended
+
+*Not written yet.*
+
+:::
+
+## Prerequisites
+
+- [Stoichiometry and algebra](../algebra/index.qmd)
+- Matrices and row reduction
+
+## Learning outcomes
+
+*Not written yet.*
+
+## Resources
+
+Lessons, worksheets, problems and other resources for this connection.
+
+::: {#resources}
+:::

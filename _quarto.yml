@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: _site # this is where the site is saved
+
+website:
+  title: "MMA home" 
+  navbar:
+    left:
+      - href: applications/index.qmd
+        text: Applications
+      - href: math_topics/index.qmd
+        text: Math topics
+    right:
+      - href: about.qmd
+        text: About
+  page-footer:
+    center: "© 2026 Jeremy Upsal – Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) :– [About](/about.qmd)"
+
+format:
+  html:
+    theme: cosmo
+    toc: true       # Table of contents
+    toc-title: "On this page"
+    css: styles.css
+
+lang: en

@@ -1,0 +1,16 @@
+---
+# A resource: a lesson, worksheet, problem set, etc.
+# Copy to  applications/<field>/<topic>/<math-topic>/resources/<name>.qmd
+# It then appears in the Resources list on its connection page.
+title: "Lesson: short title"
+description: "One line, shown in the Resources list."
+categories: [Lesson]
+---
+
+## Learning outcomes
+
+- Outcome.
+
+## Content
+
+*Not written yet.*

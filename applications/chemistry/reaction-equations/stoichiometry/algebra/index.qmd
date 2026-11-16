@@ -1,0 +1,47 @@
+---
+title: "Stoichiometry and algebra"
+description: "Balance a reaction equation by solving n equations in m unknowns."
+categories: [Stoichiometry, Algebra]
+listing:
+  id: resources
+  contents: "./resources/*.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+**Related:** [Stoichiometry](../index.qmd) · [Reaction equations](../../index.qmd) · [Algebra](../../../../../math/algebra/index.qmd)
+
+## Background
+
+::: {.panel-tabset}
+
+### Minimum
+
+*Not written yet.*
+
+### Medium
+
+Balancing a reaction, $n$ equations in $m$ unknowns.
+
+### Extended
+
+*Not written yet.*
+
+:::
+
+## Prerequisites
+
+- [Reaction equations](../../index.qmd)
+- Systems of linear equations
+
+## Learning outcomes
+
+*Not written yet.*
+
+## Resources
+
+Lessons, worksheets, problems and other resources for this connection.
+
+::: {#resources}
+:::

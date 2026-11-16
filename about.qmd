@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+
+This site is designed and created by Jeremy Upsal with contributions from
+
+- Griffin Bandstetter
+- Payton Howell
+- Ava Michler 
+- Emme McMullen
+- Fisher Ng
+
+The site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Individual page contributions can be made using ___. 

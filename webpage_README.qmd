@@ -1,0 +1,203 @@
+<!--
+This is a private document written for MMA developers and contributors.
+
+For those new to markdown, this is a comment. You are encouraged to add comments
+in your pages.
+
+We should develop a good system for quickly searching by comments. For example,
+add a comment with TODO to help create a list of TODOs. An example is given
+below.
+-->
+
+<!-- TODO: Create more searchable tags to quickly search and identify things we
+need to do.-->
+
+# MMA structure
+
+The MMA webpage is created in [quarto markdown](https://quarto.org/). The quarto
+markdown [documentation](https://quarto-tdg.org/) is extensive. You should view
+the [Websites](https://quarto-tdg.org/websites) section. Quarto markdown (qmd)
+mostly matches Markdown syntax, which is very intuitive and easy to write.
+Quarto's [markdown
+basics](https://quarto.org/docs/authoring/markdown-basics.html) will help you
+get started with markdown if you are new to it. Most of the LaTeX that you are
+used to works here. I edit my qmd files in VS Code. 
+
+This webpage is split into two main trees, both of which link to the other side.
+
+- **Application topic**: These form a tree: Chemistry > Reaction equations >
+Kinetics.
+- **Math topic**: an area of math, e.g. Logarithms or Differential equations.
+
+The webpage is created through a series of .qmd files in a file directory.
+Several terms will be used in this document. They are defined below. 
+
+
+## Terms {#sec-terms}
+- **Hub**: a page that introduces a topic and lists relevant pages. 
+  A hub has a short background and an automatic list (see *listing*) of
+  connected pages (e.g., sub applications or associated mathematics). A hub has
+  no or worksheets of its own. Those are in **conections**. Each application
+  topic and each math topic has a hub, e.g. the Chemical Kinetics hub or the
+  Logarithms hub. Hubs should not need much editing, since they are
+  automatically built with listings (see below). 
+- **Connection**: a page about one application topic used with one math
+  topic, e.g. *Chemical Kinetics & Differential equations*. This is the core of
+  MMA. Connection pages are the main page users will access, usually through a
+  "filter chip".  A connection page has, in order: 
+  - **Background**: an explanation of the application and how the math
+   applies, written for instructors, but easy for instructors to copy if they
+   want to share background information with students. The background should be
+   written in three ways so instructors can easily share the level of detail they
+   want to share with students. 
+     - *Minimum*: a paragraph you could put on a homework assignment or worksheet. 
+     - *Medium*: a longer explanation, e.g., something that could be discussed
+       verbally in class in 5 minutes. 
+     - *Extended*: a deep dive, with references. This is mostly used for
+       instructors or those wishing to learn more about the topic. 
+  - **Prerequisite**: material students should know before starting a
+    connection or resource. Link it to the page that covers it, if there is one.
+  - **Learning outcome**: what students can do after a connection or
+    resource, written with a measurable verb ("Convert...", "Interpret...",
+    not "Understand..."). See [REVISED Bloom's Taxonomy Action Verbs](https://www.educ.msstate.edu/sites/www.educ.msstate.edu/files/2026-03/blooms_taxonomy_action_verbs.pdf)
+    - TODO: should these be here, or in the resources, or both? It would be nice to have these on the page as clickable resources. Maybe we make a listing for these?
+- **Resource**: something instructors can use in class that belongs to one
+  connection: a lesson, worksheet, problem set, etc. Each resource is its own
+  page, kept in the `resources/` folder of its connection.
+  - **Learning outcome**: what students can do after a connection or
+    resource, written with a measurable verb ("Convert...", "Interpret...",
+    not "Understand..."). See [REVISED Bloom's Taxonomy Action Verbs](https://www.educ.msstate.edu/sites/www.educ.msstate.edu/files/2026-03/blooms_taxonomy_action_verbs.pdf)
+- **Tag**: a label in a page's `categories:` list (see [Page YAML headers](#sec-YAML)), e.g.
+  `categories: [Kinetics, Logarithms]`. Tags are how a page shows up on
+  math topic hubs (using *listings*, see below). A tag must match the hub's
+  title exactly: "Logarithm" will not match "Logarithms".
+- **Listing**: an automatic list of pages, built by Quarto every time the
+  site is rendered. Hubs use
+  [listings](https://quarto.org/docs/websites/website-listings-custom.html), so
+  they are automatically updated when a new connection is added. 
+  
+## Webpage structure 
+Every viewable page (Hub, Connection, or Resource) is the `index.qmd` file
+inside its own folder, so the folders below match the pages of the website. For
+example:
+
+- **Homepage**: `index.qmd`
+  - **Application topics**: `applications/`
+    - **Chemistry** (hub): `chemistry/`
+      - **Reaction equations** (hub): `reaction-equations/`
+        - **Chemical Kinetics** (hub): `kinetics/`
+          - **Chemical Kinetics & Differential equations** (connection): `odes/`
+            - Resources (lessons, worksheets, ...): `resources/*.qmd`
+          - **Chemical Kinetics & Logarithms** (connection): `logarithms/`
+            - Resources (lessons, worksheets, ...): `resources/*.qmd`
+        - **Stoichiometry** (hub): `stoichiometry/`
+      - **Titration** (hub): `titration/`
+  - **Math topics**: `math/`
+    - **Logarithms** (hub): `logarithms/`
+    - **Differential equations** (hub): `differential-equations/`
+
+
+## Site-wide files
+These files apply to the whole site, defining site structure and style. Most
+contributors won't need to edit them, but you may want to experiment with
+changes on your own GitHub branch.
+
+**Files and folders whose names start with `_` are not turned into pages and may not be visible to you when you pull from GitHub.**
+
+- `_quarto.yml`: the site's settings: the site title, the navigation bar
+  at the top of every page, the theme, and defaults for every page (for
+  example, a table of contents on every page `toc: true`). A setting in a page's
+  own YAML header overrides the default here for that page. Changes here affect
+  every page; edits must be approved by the site administrator (Jeremy).
+- `styles.css`: custom styling (colors, spacing, fonts) added on top of
+  the theme. This is not in use right now, but may be something you want to edit
+  if you want specific styles. 
+- `_templates/`: starter files for new hub, connection and resource pages.
+- `_site/`: the built website, created by `quarto render`. Don't edit
+  anything here; it is replaced every time the site is built.
+- `.quarto/`: Quarto's internal working files, created automatically when
+  the site is rendered. **Don't edit it. It is safe to delete because
+  Quarto rebuilds it with each rendering.** 
+- `.gitignore`: a file telling GitHub which files/folders to ignore when pushing
+  to the repository. 
+
+
+## How pages work
+Each page is a `.qmd` file consisting of a
+[YAML](https://en.wikipedia.org/wiki/YAML) header (delineated with `---`),
+containing the page settings, followed by the page's text. The page text is
+written in markdown and should be relatively straightforward. The header anatomy
+is described below. 
+
+#### Page YAML headers {#sec-YAML}
+Each page begins with a YAML header, enclosed with `---`. Here is an example,
+from the [Chemical Kinetics page](./applications/chemistry/reaction-equations/kinetics/index.qmd).
+
+```yaml
+---
+title: "Chemical Kinetics"
+description: "Modeling reactant concentrations as functions time."
+categories: [Chemistry, Reaction equations]
+listing:
+  id: connections
+  contents: "./*/index.qmd"
+  type: table
+  fields: [title, description, categories]
+  sort: title
+---
+```
+
+
+The following table describes what different header settings do, how to use
+them, and when you might want to use them. 
+
+- `title`: The page's heading and the name in the browser tab. When this page
+  appears in a list on another page (e.g., through a listing), this is the link
+  text.
+- `description`: A summary shown under the title. When this page appears in a
+  list on another page, this is the text beside the link. Ideally this should be
+  one sentence and certainly no more than two sentences.
+- `categories`: A list of the page's tags. They appear as small labels under the
+  page title. Categories are used for searching and organization. See [quarto's description](https://quarto.org/docs/websites/website-listings). 
+- `listing`: This creates a "listing" (see @sec-terms), an automatic list of other
+  pages on the site matching specifications defined below. This needs to be
+  edited to define the contents and look of the listing. **Multiple listings can exist on one page, creating two searchable tables.**
+  - `id: connections`: The list's name (`connections`). It tells Quarto where to
+    put the list on the page (see #page-body). This is arbitrary, you decide it.
+  - `contents`: Which pages to list. `./*/index.qmd` means "all files named
+    `index.qmd` in the next-level of subdirectories." Each connection page will
+    displayed in its own row. 
+  - `type: table`: Show the list as a table. [Other options](https://quarto.org/docs/websites/website-listings#listing-types): `default` (a list
+    with summaries) and `grid` (cards).
+  - `fields: [title, description, categories]`: The columns of the listing
+    table. These come from the listed page's own header. These are searchable in
+    the listing.  
+  - `sort: title`:  Order the rows alphabetically by title. See [Quarto documentation](https://quarto.org/docs/websites/website-listings#listing-types) for other options.
+- `toc: false`: `toc` means "table of contents". By default, `toc` is `true` which creates a table of contents in the rigth margin. For short pages, you may have `toc: false`.
+
+#### Page body 
+The page body depends on whether the page is a Hub, Connection, or Resource.  
+
+#### Page listing
+The listing, defined in the header, should be placed at the bottom of the page.
+To show it on the webpage, put an empty block with the list's `id` in the page
+text, where the list should appear:
+
+```markdown
+## Math connections
+
+::: {#connections}
+:::
+```
+::: {.callout-note}
+`:::` creates a "fence" in qmd. Fences are used to create HTML `<div>` or
+`<span>` elements. See the [pandoc user
+guide](https://pandoc.org/demo/example33/8.18-divs-and-spans.html) for more. You will often see / use them to create special elements.
+:::
+
+Without this block, Quarto automatically puts the list at the end of the page
+without a header. 
+
+
+## Templates
+You can use existing pages as templates, or find templates in `./_templates/`. 

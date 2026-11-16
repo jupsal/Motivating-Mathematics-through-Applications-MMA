@@ -1,0 +1,14 @@
+# .gitignore tells Git which folders / files to ignore when pushing to repository.
+# GitHub will build the site itself through GitHub actions, so no website files
+# need to be pushed.
+
+# Quarto's working files
+/.quarto/
+
+# The built site (e.g., through quarto preview)
+/_site/
+
+# Files created by macOS and Windows
+.DS_Store
+Thumbs.db
+**/*.quarto_ipynb

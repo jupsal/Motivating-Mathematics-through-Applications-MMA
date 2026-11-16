@@ -1,0 +1,16 @@
+---
+title: "MMA Math Topics"
+description: "Browse math/application connections by the mathematics they use."
+listing:
+  id: math
+  contents: "./*/index.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+toc: false
+---
+
+Each math topic lists every connection that uses it, from any application area.
+
+::: {#math}
+:::

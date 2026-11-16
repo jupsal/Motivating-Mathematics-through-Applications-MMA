@@ -1,0 +1,25 @@
+---
+title: "MMA Application Areas"
+description: "Browse math/application connections by application area."
+listing:
+  id: applications
+  contents: "./*/index.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+toc: false
+---
+
+Each application has background for instructors and resources to use in class:
+lessons, worksheets, problems and more.
+
+<!--
+Old idea. I don't think this is needed anymore, as it's in the header.
+ Browse by application area below, or by [math topic](math_topics/index.qmd).
+-->
+
+
+## Application areas
+
+::: {#applications}
+:::

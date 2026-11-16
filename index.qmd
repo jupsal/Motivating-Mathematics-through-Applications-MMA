@@ -1,0 +1,22 @@
+---
+title: "Motivating Mathematics through Applications (MMA)"
+description: "MMA is a repository of motivations for various mathematical topics through realistic examples in a variety of application areas. It is designed primarily for math instructors to learn how the math they teach applies to various fields and for easy plug-and-play distribution to students."
+toc: false
+---
+
+
+This website houses a growing assortment of lessons, worksheets, homework
+problems, and more for realistic connections between math and the myriad of ways
+math can be used in Science, Technology, Engineering, Sociology, Art, and more.
+Each application area has background reading targeted for math instructors to be
+able to quickly learn some background in the given application area. 
+
+* [Browse by application area](applications/index.qmd).
+* [Browse by math topic](math_topics/index.qmd).
+
+You can also search using the tool below: 
+
+TODO
+
+# Using this webpage
+**MMA creators! Start [here](./webpage_README.qmd).** 

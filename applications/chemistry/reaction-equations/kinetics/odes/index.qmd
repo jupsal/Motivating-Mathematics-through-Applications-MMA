@@ -1,0 +1,70 @@
+---
+title: "Chemical kinetics and differential equations"
+description: "Turn a reaction equation into an initial value problem or system of initial value problems."
+categories: [Kinetics, Differential equations]
+listing:
+  id: resources
+  contents: "./resources/*.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+**Related:** [Kinetics](../index.qmd) · [Reaction equations](../../index.qmd) · [Differential equations](../../../../../math/differential-equations/index.qmd)
+
+## Background
+
+::: {.panel-tabset}
+
+### Minimum
+
+*Not written yet.*
+
+### Medium
+
+Reactions are represented by initial value problems. For example, the initial
+value problem for [Example 3: Hydrogen peroxide catalase](../../index.qmd#sec-hydrogen-peroxide-catalase) is
+$$
+\begin{aligned}
+    E'(t) &= -k_1 E\ S + k_2 X\ S - k_3 E, &E(0)= E_0\\
+    S'(t) &= -K_1 E\ S - k_2 X\ S, &S(0) = S_0\\
+    X'(t) &= K_1 E\ S - k_2 X\ S, &X(0) = X_0\\
+    P'(t) &= k_2 X\ S, &P(0) = P_0\\
+    I'(t) &= k_3 E, &I(0) = 0
+\end{aligned}
+$$
+where
+
+* $E$ = the concentration of the catalase
+* $S$ = the concentration of hydrogen peroxide
+* $X$ = the concentration of an enzyme-substrate complex formed during the reaction of hydrogen peroxide and the catalase
+* $P$ = the concentration of the product formation (?) of ???
+* $I$ = the concentration of an inactive form of the catalase
+
+and $k_1$, $k_2$, and $k_3$ are the rates of the reactions.
+
+These equations are created in a similar manner to compartment models. We begin
+with the simplest example, $A \to B$, from the
+[Reaction equations](../../index.qmd#eq-simple-reaction) page.
+
+### Extended
+
+*Not written yet.*
+
+:::
+
+## Prerequisites
+
+- [Reaction equations](../../index.qmd)
+- Derivatives
+
+## Learning outcomes
+
+- Convert an application problem to a differential equation.
+
+## Resources
+
+Lessons, worksheets, problems and other resources for this connection.
+
+::: {#resources}
+:::
