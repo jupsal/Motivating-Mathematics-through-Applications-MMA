@@ -1,7 +1,7 @@
 ---
-title: "Chemical kinetics and logarithms"
-description: "Use logarithms to find reaction rates and half-lives."
-categories: [Kinetics, Logarithms]
+title: "Titration and logarithms"
+description: "The Henderson-Hasselbalch Equation presents a logarithmic relationship between the pH of a buffer solution and the ratio of conjugate base to weak acid concentrations."
+categories: [Titration, Logarithms]
 listing:
   id: resources
   contents: "./resources/*.qmd"
@@ -10,7 +10,7 @@ listing:
   sort: title
 ---
 
-**Related:** [Kinetics](../index.qmd) · [Reaction equations](../../index.qmd) · [Logarithms](../../../../../math/logarithms/index.qmd)
+**Related:** [Titration](../index.qmd) · [Logarithms](../../../../../math/logarithms/index.qmd)
 
 ## Background
 
@@ -22,11 +22,7 @@ listing:
 
 ### Medium
 
-#### Finding the reaction rate
-The reaction rate is found using logarithms.
-
-#### Half life
-Logarithms are also used for half life.
+*Not written yet.*
 
 ### Extended
 
