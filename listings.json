@@ -1,48 +1,28 @@
 [
   {
-    "listing": "/math_topics/logarithms/index.html",
-    "items": [
-      "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
-      "/applications/chemistry/titration/logarithms/index.html"
-    ]
-  },
-  {
-    "listing": "/math_topics/linear-algebra/index.html",
-    "items": [
-      "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html"
-    ]
-  },
-  {
-    "listing": "/math_topics/exponentials/index.html",
-    "items": [
-      "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
-      "/applications/sociology/voting/logarithms/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/sociology/index.html",
-    "items": [
-      "/applications/sociology/communication/index.html",
-      "/applications/sociology/compound interest/index.html",
-      "/applications/sociology/voting/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/sociology/voting/index.html",
-    "items": [
-      "/applications/sociology/voting/logarithms/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/sociology/communication/index.html",
-    "items": []
-  },
-  {
     "listing": "/applications/biology/ecology/index.html",
     "items": []
   },
   {
-    "listing": "/applications/chemistry/titration/logarithms/index.html",
+    "listing": "/applications/physics/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/titration/index.html",
+    "items": [
+      "/applications/chemistry/titration/logarithms/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/chemistry/index.html",
+    "items": [
+      "/applications/chemistry/Beer_Lambert_Law/index.html",
+      "/applications/chemistry/reaction-equations/index.html",
+      "/applications/chemistry/titration/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
     "items": []
   },
   {
@@ -59,49 +39,6 @@
     ]
   },
   {
-    "listing": "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/kinetics/optimization/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/stoichiometry/index.html",
-    "items": [
-      "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
-      "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/Beer_Lambert_Law/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/engineering/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/index.html",
-    "items": [
-      "/applications/chemistry/Beer_Lambert_Law/index.html",
-      "/applications/chemistry/reaction-equations/index.html",
-      "/applications/chemistry/titration/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
-    "items": []
-  },
-  {
     "listing": "/applications/chemistry/reaction-equations/kinetics/index.html",
     "items": [
       "/applications/chemistry/reaction-equations/kinetics/odes/index.html",
@@ -115,29 +52,7 @@
     "items": []
   },
   {
-    "listing": "/applications/chemistry/titration/index.html",
-    "items": [
-      "/applications/chemistry/titration/logarithms/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/biology/index.html",
-    "items": [
-      "/applications/biology/ecology/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/index.html",
-    "items": [
-      "/applications/biology/index.html",
-      "/applications/chemistry/index.html",
-      "/applications/engineering/index.html",
-      "/applications/physics/index.html",
-      "/applications/sociology/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/sociology/compound interest/index.html",
+    "listing": "/applications/chemistry/Beer_Lambert_Law/index.html",
     "items": []
   },
   {
@@ -145,19 +60,14 @@
     "items": []
   },
   {
-    "listing": "/applications/physics/index.html",
+    "listing": "/applications/sociology/compound interest/index.html",
     "items": []
   },
   {
-    "listing": "/math_topics/algebra/index.html",
+    "listing": "/math_topics/exponentials/index.html",
     "items": [
-      "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html"
-    ]
-  },
-  {
-    "listing": "/math_topics/optimization/index.html",
-    "items": [
-      "/applications/chemistry/reaction-equations/kinetics/optimization/index.html"
+      "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
+      "/applications/sociology/voting/logarithms/index.html"
     ]
   },
   {
@@ -172,9 +82,99 @@
     ]
   },
   {
+    "listing": "/math_topics/logarithms/index.html",
+    "items": [
+      "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+      "/applications/chemistry/titration/logarithms/index.html"
+    ]
+  },
+  {
+    "listing": "/math_topics/optimization/index.html",
+    "items": [
+      "/applications/chemistry/reaction-equations/kinetics/optimization/index.html"
+    ]
+  },
+  {
+    "listing": "/math_topics/algebra/index.html",
+    "items": [
+      "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html"
+    ]
+  },
+  {
+    "listing": "/math_topics/linear-algebra/index.html",
+    "items": [
+      "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html"
+    ]
+  },
+  {
     "listing": "/math_topics/differential-equations/index.html",
     "items": [
       "/applications/chemistry/reaction-equations/kinetics/odes/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/sociology/communication/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/sociology/index.html",
+    "items": [
+      "/applications/sociology/communication/index.html",
+      "/applications/sociology/compound interest/index.html",
+      "/applications/sociology/voting/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/sociology/voting/index.html",
+    "items": [
+      "/applications/sociology/voting/logarithms/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/kinetics/optimization/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/stoichiometry/index.html",
+    "items": [
+      "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
+      "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/chemistry/titration/logarithms/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/engineering/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/index.html",
+    "items": [
+      "/applications/biology/index.html",
+      "/applications/chemistry/index.html",
+      "/applications/engineering/index.html",
+      "/applications/physics/index.html",
+      "/applications/sociology/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/biology/index.html",
+    "items": [
+      "/applications/biology/ecology/index.html"
     ]
   }
 ]
