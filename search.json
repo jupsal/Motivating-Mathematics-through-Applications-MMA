@@ -25,7 +25,7 @@
     "href": "math_topics/logarithms/index.html#connections",
     "title": "Logarithms",
     "section": "Connections",
-    "text": "Connections\nEvery connection on the site tagged “Logarithms”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nNo matching items"
+    "text": "Connections\nEvery connection on the site tagged “Logarithms”.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "math_topics/linear-algebra/index.html",
@@ -168,323 +168,36 @@
     "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/chemistry/titration/index.html",
-    "href": "applications/chemistry/titration/index.html",
-    "title": "Titration",
-    "section": "",
-    "text": "Part of: Chemistry"
-  },
-  {
-    "objectID": "applications/chemistry/titration/index.html#background",
-    "href": "applications/chemistry/titration/index.html#background",
-    "title": "Titration",
-    "section": "Background",
-    "text": "Background\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/titration/index.html#math-connections",
-    "href": "applications/chemistry/titration/index.html#math-connections",
-    "title": "Titration",
-    "section": "Math connections",
-    "text": "Math connections\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\nCategories\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
-    "title": "Chemical kinetics and differential equations",
-    "section": "",
-    "text": "Related: Kinetics · Reaction equations · Differential equations"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nReactions are represented by initial value problems. For example, the initial value problem for Example 3: Hydrogen peroxide catalase is \\[\n\\begin{aligned}\n    E'(t) &= -k_1 E\\ S + k_2 X\\ S - k_3 E, &E(0)= E_0\\\\\n    S'(t) &= -K_1 E\\ S - k_2 X\\ S, &S(0) = S_0\\\\\n    X'(t) &= K_1 E\\ S - k_2 X\\ S, &X(0) = X_0\\\\\n    P'(t) &= k_2 X\\ S, &P(0) = P_0\\\\\n    I'(t) &= k_3 E, &I(0) = 0\n\\end{aligned}\n\\] where\n\n\\(E\\) = the concentration of the catalase\n\\(S\\) = the concentration of hydrogen peroxide\n\\(X\\) = the concentration of an enzyme-substrate complex formed during the reaction of hydrogen peroxide and the catalase\n\\(P\\) = the concentration of the product formation (?) of ???\n\\(I\\) = the concentration of an inactive form of the catalase\n\nand \\(k_1\\), \\(k_2\\), and \\(k_3\\) are the rates of the reactions.\nThese equations are created in a similar manner to compartment models. We begin with the simplest example, \\(A \\to B\\), from the Reaction equations page.\n\n\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nReaction equations\nDerivatives"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\n\nConvert an application problem to a differential equation."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
-    "title": "Chemical kinetics and differential equations",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/index.html",
-    "title": "Chemical Kinetics",
-    "section": "",
-    "text": "Part of: Reaction equations · Chemistry"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/index.html#background",
-    "title": "Chemical Kinetics",
-    "section": "Background",
-    "text": "Background\nChemical kinetics is the study of chemical reactions.\nMore background not written yet.\nExamples can be found on the Reaction equations page."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html#math-connections",
-    "href": "applications/chemistry/reaction-equations/kinetics/index.html#math-connections",
-    "title": "Chemical Kinetics",
-    "section": "Math connections",
-    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and differential equations\n\n\nTurn a reaction equation into an initial value problem or system of initial value problems.\n\n\nKinetics, Differential equations\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nChemical kinetics and optimization\n\n\nFind the maximum or minimum amount a substance during a reaction.\n\n\nKinetics, Optimization\n\n\n\n\n\n\nKinetics and exponentials\n\n\nReactant concentrations are often exponentials.\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
-    "title": "Kinetics and exponentials",
-    "section": "",
-    "text": "Related: Kinetics · Reaction equations · Exponentials"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#background",
-    "title": "Kinetics and exponentials",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nThe solutions of many of the differential equations are exponentials.\n\n\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#prerequisites",
-    "title": "Kinetics and exponentials",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nKinetics and differential equations\nExponential functions"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#learning-outcomes",
-    "title": "Kinetics and exponentials",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#resources",
-    "title": "Kinetics and exponentials",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
-    "title": "Stoichiometry and linear algebra",
-    "section": "",
-    "text": "Related: Stoichiometry · Reaction equations · Linear algebra"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nNot written yet.\n\n\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nStoichiometry and algebra\nMatrices and row reduction"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
-    "title": "Stoichiometry and linear algebra",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/index.html",
-    "href": "applications/chemistry/index.html",
-    "title": "Chemistry",
-    "section": "",
-    "text": "Introduction not written yet."
-  },
-  {
-    "objectID": "applications/chemistry/index.html#topics",
-    "href": "applications/chemistry/index.html#topics",
-    "title": "Chemistry",
-    "section": "Topics",
-    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBeer_Lambert_Law\n\n\nNot written yet.\n\n\n\n\n\n\nReaction equations\n\n\nDefines a reaction equation with real examples. This is the starting point for kinetics and stoichiometry.\n\n\n\n\n\n\nTitration\n\n\nNot written yet.\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/engineering/index.html",
-    "href": "applications/engineering/index.html",
-    "title": "Engineering",
-    "section": "",
-    "text": "Introduction not written yet."
-  },
-  {
-    "objectID": "applications/engineering/index.html#topics",
-    "href": "applications/engineering/index.html#topics",
-    "title": "Engineering",
-    "section": "Topics",
-    "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/Beer_Lambert_Law/index.html",
-    "href": "applications/chemistry/Beer_Lambert_Law/index.html",
-    "title": "Beer_Lambert_Law",
-    "section": "",
-    "text": "Part of: Chemistry"
-  },
-  {
-    "objectID": "applications/chemistry/Beer_Lambert_Law/index.html#background",
-    "href": "applications/chemistry/Beer_Lambert_Law/index.html#background",
-    "title": "Beer_Lambert_Law",
-    "section": "Background",
-    "text": "Background\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/Beer_Lambert_Law/index.html#math-connections",
-    "href": "applications/chemistry/Beer_Lambert_Law/index.html#math-connections",
-    "title": "Beer_Lambert_Law",
-    "section": "Math connections",
-    "text": "Math connections\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\nCategories\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
-    "title": "Stoichiometry and algebra",
-    "section": "",
-    "text": "Related: Stoichiometry · Reaction equations · Algebra"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#background",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#background",
-    "title": "Stoichiometry and algebra",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nBalancing a reaction, \\(n\\) equations in \\(m\\) unknowns.\n\n\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#prerequisites",
-    "title": "Stoichiometry and algebra",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nReaction equations\nSystems of linear equations"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#learning-outcomes",
-    "title": "Stoichiometry and algebra",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#resources",
-    "title": "Stoichiometry and algebra",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html",
-    "title": "Stoichiometry",
-    "section": "",
-    "text": "Part of: Reaction equations · Chemistry"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
-    "title": "Stoichiometry",
-    "section": "Background",
-    "text": "Background\nBackground not written yet.\nExamples can be found on the Reaction equations page."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
-    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
-    "title": "Stoichiometry",
-    "section": "Math connections",
-    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
-    "title": "Chemical kinetics and optimization",
-    "section": "",
-    "text": "Related: Kinetics · Reaction equations · Optimization"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#background",
-    "title": "Chemical kinetics and optimization",
-    "section": "Background",
-    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nFind peak amount of substance.\n\n\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#prerequisites",
-    "title": "Chemical kinetics and optimization",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nKinetics and differential equations\nDerivatives"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#learning-outcomes",
-    "title": "Chemical kinetics and optimization",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\nNot written yet."
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#resources",
-    "title": "Chemical kinetics and optimization",
-    "section": "Resources",
-    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+    "objectID": "applications/chemistry/titration/logarithms/index.html",
+    "href": "applications/chemistry/titration/logarithms/index.html",
     "title": "Chemical kinetics and logarithms",
     "section": "",
     "text": "Related: Kinetics · Reaction equations · Logarithms"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#background",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#background",
+    "objectID": "applications/chemistry/titration/logarithms/index.html#background",
+    "href": "applications/chemistry/titration/logarithms/index.html#background",
     "title": "Chemical kinetics and logarithms",
     "section": "Background",
     "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\n\nFinding the reaction rate\nThe reaction rate is found using logarithms.\n\n\nHalf life\nLogarithms are also used for half life.\n\n\n\nNot written yet."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#prerequisites",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#prerequisites",
+    "objectID": "applications/chemistry/titration/logarithms/index.html#prerequisites",
+    "href": "applications/chemistry/titration/logarithms/index.html#prerequisites",
     "title": "Chemical kinetics and logarithms",
     "section": "Prerequisites",
     "text": "Prerequisites\n\nKinetics and exponentials\nLogarithms"
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#learning-outcomes",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#learning-outcomes",
+    "objectID": "applications/chemistry/titration/logarithms/index.html#learning-outcomes",
+    "href": "applications/chemistry/titration/logarithms/index.html#learning-outcomes",
     "title": "Chemical kinetics and logarithms",
     "section": "Learning outcomes",
     "text": "Learning outcomes\nNot written yet."
   },
   {
-    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#resources",
-    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#resources",
+    "objectID": "applications/chemistry/titration/logarithms/index.html#resources",
+    "href": "applications/chemistry/titration/logarithms/index.html#resources",
     "title": "Chemical kinetics and logarithms",
     "section": "Resources",
     "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
@@ -530,6 +243,328 @@
     "title": "Reaction equations",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nSee Wikipedia contributors (2026).↩︎"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+    "title": "Chemical kinetics and logarithms",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Logarithms"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#background",
+    "title": "Chemical kinetics and logarithms",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\n\nFinding the reaction rate\nThe reaction rate is found using logarithms.\n\n\nHalf life\nLogarithms are also used for half life.\n\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#prerequisites",
+    "title": "Chemical kinetics and logarithms",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nKinetics and exponentials\nLogarithms"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#learning-outcomes",
+    "title": "Chemical kinetics and logarithms",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/logarithms/index.html#resources",
+    "title": "Chemical kinetics and logarithms",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html",
+    "title": "Chemical kinetics and optimization",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Optimization"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#background",
+    "title": "Chemical kinetics and optimization",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nFind peak amount of substance.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#prerequisites",
+    "title": "Chemical kinetics and optimization",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nKinetics and differential equations\nDerivatives"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#learning-outcomes",
+    "title": "Chemical kinetics and optimization",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/optimization/index.html#resources",
+    "title": "Chemical kinetics and optimization",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html",
+    "title": "Stoichiometry",
+    "section": "",
+    "text": "Part of: Reaction equations · Chemistry"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#background",
+    "title": "Stoichiometry",
+    "section": "Background",
+    "text": "Background\nBackground not written yet.\nExamples can be found on the Reaction equations page."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/index.html#math-connections",
+    "title": "Stoichiometry",
+    "section": "Math connections",
+    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nStoichiometry and algebra\n\n\nBalance a reaction equation by solving n equations in m unknowns.\n\n\nStoichiometry, Algebra\n\n\n\n\n\n\nStoichiometry and linear algebra\n\n\nNot written yet.\n\n\nStoichiometry, Linear algebra\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
+    "title": "Stoichiometry and algebra",
+    "section": "",
+    "text": "Related: Stoichiometry · Reaction equations · Algebra"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#background",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#background",
+    "title": "Stoichiometry and algebra",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nBalancing a reaction, \\(n\\) equations in \\(m\\) unknowns.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#prerequisites",
+    "title": "Stoichiometry and algebra",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nReaction equations\nSystems of linear equations"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#learning-outcomes",
+    "title": "Stoichiometry and algebra",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/algebra/index.html#resources",
+    "title": "Stoichiometry and algebra",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/Beer_Lambert_Law/index.html",
+    "href": "applications/chemistry/Beer_Lambert_Law/index.html",
+    "title": "Beer_Lambert_Law",
+    "section": "",
+    "text": "Part of: Chemistry"
+  },
+  {
+    "objectID": "applications/chemistry/Beer_Lambert_Law/index.html#background",
+    "href": "applications/chemistry/Beer_Lambert_Law/index.html#background",
+    "title": "Beer_Lambert_Law",
+    "section": "Background",
+    "text": "Background\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/Beer_Lambert_Law/index.html#math-connections",
+    "href": "applications/chemistry/Beer_Lambert_Law/index.html#math-connections",
+    "title": "Beer_Lambert_Law",
+    "section": "Math connections",
+    "text": "Math connections\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\nCategories\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/engineering/index.html",
+    "href": "applications/engineering/index.html",
+    "title": "Engineering",
+    "section": "",
+    "text": "Introduction not written yet."
+  },
+  {
+    "objectID": "applications/engineering/index.html#topics",
+    "href": "applications/engineering/index.html#topics",
+    "title": "Engineering",
+    "section": "Topics",
+    "text": "Topics\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/index.html",
+    "href": "applications/chemistry/index.html",
+    "title": "Chemistry",
+    "section": "",
+    "text": "Introduction not written yet."
+  },
+  {
+    "objectID": "applications/chemistry/index.html#topics",
+    "href": "applications/chemistry/index.html#topics",
+    "title": "Chemistry",
+    "section": "Topics",
+    "text": "Topics\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBeer_Lambert_Law\n\n\nNot written yet.\n\n\n\n\n\n\nReaction equations\n\n\nDefines a reaction equation with real examples. This is the starting point for kinetics and stoichiometry.\n\n\n\n\n\n\nTitration\n\n\nNot written yet.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
+    "title": "Stoichiometry and linear algebra",
+    "section": "",
+    "text": "Related: Stoichiometry · Reaction equations · Linear algebra"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#background",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nNot written yet.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#prerequisites",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nStoichiometry and algebra\nMatrices and row reduction"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#learning-outcomes",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html#resources",
+    "title": "Stoichiometry and linear algebra",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
+    "title": "Kinetics and exponentials",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Exponentials"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#background",
+    "title": "Kinetics and exponentials",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nThe solutions of many of the differential equations are exponentials.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#prerequisites",
+    "title": "Kinetics and exponentials",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nKinetics and differential equations\nExponential functions"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#learning-outcomes",
+    "title": "Kinetics and exponentials",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/exponentials/index.html#resources",
+    "title": "Kinetics and exponentials",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/index.html",
+    "title": "Chemical Kinetics",
+    "section": "",
+    "text": "Part of: Reaction equations · Chemistry"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/index.html#background",
+    "title": "Chemical Kinetics",
+    "section": "Background",
+    "text": "Background\nChemical kinetics is the study of chemical reactions.\nMore background not written yet.\nExamples can be found on the Reaction equations page."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/index.html#math-connections",
+    "href": "applications/chemistry/reaction-equations/kinetics/index.html#math-connections",
+    "title": "Chemical Kinetics",
+    "section": "Math connections",
+    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and differential equations\n\n\nTurn a reaction equation into an initial value problem or system of initial value problems.\n\n\nKinetics, Differential equations\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nChemical kinetics and optimization\n\n\nFind the maximum or minimum amount a substance during a reaction.\n\n\nKinetics, Optimization\n\n\n\n\n\n\nKinetics and exponentials\n\n\nReactant concentrations are often exponentials.\n\n\nKinetics, Exponentials\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html",
+    "title": "Chemical kinetics and differential equations",
+    "section": "",
+    "text": "Related: Kinetics · Reaction equations · Differential equations"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#background",
+    "title": "Chemical kinetics and differential equations",
+    "section": "Background",
+    "text": "Background\n\nMinimumMediumExtended\n\n\nNot written yet.\n\n\nReactions are represented by initial value problems. For example, the initial value problem for Example 3: Hydrogen peroxide catalase is \\[\n\\begin{aligned}\n    E'(t) &= -k_1 E\\ S + k_2 X\\ S - k_3 E, &E(0)= E_0\\\\\n    S'(t) &= -K_1 E\\ S - k_2 X\\ S, &S(0) = S_0\\\\\n    X'(t) &= K_1 E\\ S - k_2 X\\ S, &X(0) = X_0\\\\\n    P'(t) &= k_2 X\\ S, &P(0) = P_0\\\\\n    I'(t) &= k_3 E, &I(0) = 0\n\\end{aligned}\n\\] where\n\n\\(E\\) = the concentration of the catalase\n\\(S\\) = the concentration of hydrogen peroxide\n\\(X\\) = the concentration of an enzyme-substrate complex formed during the reaction of hydrogen peroxide and the catalase\n\\(P\\) = the concentration of the product formation (?) of ???\n\\(I\\) = the concentration of an inactive form of the catalase\n\nand \\(k_1\\), \\(k_2\\), and \\(k_3\\) are the rates of the reactions.\nThese equations are created in a similar manner to compartment models. We begin with the simplest example, \\(A \\to B\\), from the Reaction equations page.\n\n\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#prerequisites",
+    "title": "Chemical kinetics and differential equations",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nReaction equations\nDerivatives"
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#learning-outcomes",
+    "title": "Chemical kinetics and differential equations",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nConvert an application problem to a differential equation."
+  },
+  {
+    "objectID": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
+    "href": "applications/chemistry/reaction-equations/kinetics/odes/index.html#resources",
+    "title": "Chemical kinetics and differential equations",
+    "section": "Resources",
+    "text": "Resources\nLessons, worksheets, problems and other resources for this connection.\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "applications/chemistry/titration/index.html",
+    "href": "applications/chemistry/titration/index.html",
+    "title": "Titration",
+    "section": "",
+    "text": "Part of: Chemistry"
+  },
+  {
+    "objectID": "applications/chemistry/titration/index.html#background",
+    "href": "applications/chemistry/titration/index.html#background",
+    "title": "Titration",
+    "section": "Background",
+    "text": "Background\nNot written yet."
+  },
+  {
+    "objectID": "applications/chemistry/titration/index.html#math-connections",
+    "href": "applications/chemistry/titration/index.html#math-connections",
+    "title": "Titration",
+    "section": "Math connections",
+    "text": "Math connections\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nCategories\n\n\n\n\n\n\n\n\nChemical kinetics and logarithms\n\n\nUse logarithms to find reaction rates and half-lives.\n\n\nKinetics, Logarithms\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "applications/biology/index.html",

@@ -2,7 +2,8 @@
   {
     "listing": "/math_topics/logarithms/index.html",
     "items": [
-      "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html"
+      "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+      "/applications/chemistry/titration/logarithms/index.html"
     ]
   },
   {
@@ -41,63 +42,7 @@
     "items": []
   },
   {
-    "listing": "/applications/chemistry/titration/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/kinetics/odes/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/kinetics/index.html",
-    "items": [
-      "/applications/chemistry/reaction-equations/kinetics/odes/index.html",
-      "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
-      "/applications/chemistry/reaction-equations/kinetics/optimization/index.html",
-      "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/index.html",
-    "items": [
-      "/applications/chemistry/Beer_Lambert_Law/index.html",
-      "/applications/chemistry/reaction-equations/index.html",
-      "/applications/chemistry/titration/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/engineering/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/Beer_Lambert_Law/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/stoichiometry/index.html",
-    "items": [
-      "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
-      "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html"
-    ]
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/kinetics/optimization/index.html",
-    "items": []
-  },
-  {
-    "listing": "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+    "listing": "/applications/chemistry/titration/logarithms/index.html",
     "items": []
   },
   {
@@ -111,6 +56,68 @@
       "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
       "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
       "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/kinetics/optimization/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/stoichiometry/index.html",
+    "items": [
+      "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
+      "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/Beer_Lambert_Law/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/engineering/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/index.html",
+    "items": [
+      "/applications/chemistry/Beer_Lambert_Law/index.html",
+      "/applications/chemistry/reaction-equations/index.html",
+      "/applications/chemistry/titration/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/kinetics/index.html",
+    "items": [
+      "/applications/chemistry/reaction-equations/kinetics/odes/index.html",
+      "/applications/chemistry/reaction-equations/kinetics/logarithms/index.html",
+      "/applications/chemistry/reaction-equations/kinetics/optimization/index.html",
+      "/applications/chemistry/reaction-equations/kinetics/exponentials/index.html"
+    ]
+  },
+  {
+    "listing": "/applications/chemistry/reaction-equations/kinetics/odes/index.html",
+    "items": []
+  },
+  {
+    "listing": "/applications/chemistry/titration/index.html",
+    "items": [
+      "/applications/chemistry/titration/logarithms/index.html"
     ]
   },
   {
