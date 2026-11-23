@@ -1,0 +1,22 @@
+---
+title: "Beer_Lambert_Law"
+description: "Not written yet."
+categories: [Chemistry]
+listing:
+  id: connections
+  contents: "./*/index.qmd"
+  type: table
+  fields: [title, description, categories]
+  sort: title
+---
+
+**Part of:** [Chemistry](../index.qmd)
+
+## Background
+
+*Not written yet.*
+
+## Math connections
+
+::: {#connections}
+:::
