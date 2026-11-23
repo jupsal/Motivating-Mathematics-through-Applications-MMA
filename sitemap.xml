@@ -2,130 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/math_topics/logarithms/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.510Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/math_topics/linear-algebra/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.510Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/math_topics/exponentials/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.510Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/about.html</loc>
-    <lastmod>2026-11-23T21:43:57.508Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.533Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/contribute.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/sociology/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/sociology/voting/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/biology/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.508Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.508Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/logarithms/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/optimization/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/stoichiometry/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/Beer_Lambert_Law/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.508Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/engineering/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.508Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/exponentials/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/odes/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/titration/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/biology/ecology/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.508Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/sociology/communication/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/biology/ecology/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/titration/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/odes/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/exponentials/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/stoichiometry/linear-algebra/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/engineering/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/Beer_Lambert_Law/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/stoichiometry/algebra/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/stoichiometry/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/optimization/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/kinetics/logarithms/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/chemistry/reaction-equations/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/biology/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/sociology/compound interest/index.html</loc>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/sociology/voting/logarithms/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/applications/physics/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.509Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.534Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/webpage_README.html</loc>
-    <lastmod>2026-11-23T21:43:57.510Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/math_topics/algebra/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.510Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/math_topics/optimization/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.510Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/math_topics/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.510Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
   <url>
     <loc>https://jupsal.github.io/Motivating-Mathematics-through-Applications-MMA/math_topics/differential-equations/index.html</loc>
-    <lastmod>2026-11-23T21:43:57.510Z</lastmod>
+    <lastmod>2026-11-23T21:44:29.535Z</lastmod>
   </url>
 </urlset>
