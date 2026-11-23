@@ -1,0 +1,51 @@
+---
+title: "Chemical kinetics and logarithms"
+description: "Use logarithms to find reaction rates and half-lives."
+categories: [Kinetics, Logarithms]
+listing:
+  id: resources
+  contents: "./resources/*.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+**Related:** [Kinetics](../index.qmd) · [Reaction equations](../../index.qmd) · [Logarithms](../../../../../math/logarithms/index.qmd)
+
+## Background
+
+::: {.panel-tabset}
+
+### Minimum
+
+*Not written yet.*
+
+### Medium
+
+#### Finding the reaction rate
+The reaction rate is found using logarithms.
+
+#### Half life
+Logarithms are also used for half life.
+
+### Extended
+
+*Not written yet.*
+
+:::
+
+## Prerequisites
+
+- [Kinetics and exponentials](../exponentials/index.qmd)
+- Logarithms
+
+## Learning outcomes
+
+*Not written yet.*
+
+## Resources
+
+Lessons, worksheets, problems and other resources for this connection.
+
+::: {#resources}
+:::
