@@ -1,11 +1,12 @@
 ---
 title: "Communication"
-description: "Communication has many apps"
+description: "Over time methods of communication evolve according to ODEs"
+categories: [Sociology]
 listing:
   id: topics
   contents: "./*/index.qmd"
   type: table
-  fields: [title, description]
+  fields: [title, description, categories]
   sort: title
 ---
 
@@ -13,7 +14,26 @@ listing:
 
 ## Background
 
-*Not written yet.*
+In [this paper](https://doi.org/10.1098/rspb.2024.1562) by Mari Kawakatsu et.al they discuss a model for collective systems in which they must do work to sense and communicate changes to the environment in order to be more productive. This work describes a theoretical system that can be written down mathematically to be able to model the behavior of such a system. This idea works for multicellular organism, social insect colonies, and more under the title “advanced collective systems”.
+
+The goal of this work in particular is to allow researchers to track the evolution and diversification of communication strategies to help understand the ways things may have evolved to get to the world we live in today.
+
+**Popular types of signals/signaling strategies**
+
+- Prolonged signaling
+  - Ex. Honeybee scouts do a “waggle dance” to communication the location of food souces
+- Persistence of signaling in environment
+  - Ex. Ants leave pheromones on trails so that others can track and/or follow
+- Brief, but frequent communicative interactions
+  - Ex.
+
+*Other examples of signaling*:
+
+-  In the immune system, information about attacking pathogens is relayed by cytokines.
+
+- When faced with environmental stress, plant cells use hormones to communicate that throughout the organism.
+
+- In both of these cases, quick and reliable communication through the sharing and interpretation of the signal will result in the organism (our immune system or a plant) being better able to adapt to its environment and remain as healthy as possible.
 
 ## Math connections
 
