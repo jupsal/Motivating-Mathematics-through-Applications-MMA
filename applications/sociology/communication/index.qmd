@@ -29,11 +29,19 @@ The goal of this work in particular is to allow researchers to track the evoluti
 
 *Other examples of signaling*:
 
--  In the immune system, information about attacking pathogens is relayed by cytokines.
+- In the immune system, information about attacking pathogens is relayed by cytokines.
 
 - When faced with environmental stress, plant cells use hormones to communicate that throughout the organism.
 
 - In both of these cases, quick and reliable communication through the sharing and interpretation of the signal will result in the organism (our immune system or a plant) being better able to adapt to its environment and remain as healthy as possible.
+
+### The Model 
+The model relies on the following 4 key ideas:
+
+- Individuals are either **informed** or **uninformed** about the state of their environment.
+- Individuals can become uninformed when their environment changes.
+- Individuals can **explore** the environment to gain information/become informed.
+- Individuals can share information by **signalling**.
 
 ## Math connections
 
