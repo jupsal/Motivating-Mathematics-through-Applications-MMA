@@ -1,0 +1,21 @@
+---
+title: "Communication"
+description: "Communication has many apps"
+listing:
+  id: topics
+  contents: "./*/index.qmd"
+  type: table
+  fields: [title, description]
+  sort: title
+---
+
+**Part of:** [Sociology](../index.qmd)
+
+## Background
+
+*Not written yet.*
+
+## Math connections
+
+::: {#connections}
+:::
