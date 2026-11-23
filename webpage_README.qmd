@@ -236,7 +236,7 @@ GitHub, open the note below and get started with GitHub!
    want to keep the source code and run:
 
    ```
-   git clone https://github.com/<maintainer-github-name>/mma.git
+   git clone https://github.com/jupsal/Motivating-Mathematics-through-Applications-MMA.git
    ```
 
    This creates a folder named `mma` with all the files. Open that folder
